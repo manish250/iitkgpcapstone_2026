@@ -1,0 +1,542 @@
+[
+  {
+    "query": "How can a current student obtain an official enrollment certification through the self-service route?",
+    "gold_answer": "A current student can access an official enrollment certification through the SSOL self-service tool.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "Which outside organization handles academic certification requests from parties outside Columbia?",
+    "gold_answer": "The National Student Clearinghouse is Columbia’s official third-party provider, and external requests for current or former students are expected to be processed through it.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "What facts can an academic certification from the Registrar verify?",
+    "gold_answer": "It can verify dates of attendance, full-time or part-time status by semester, and the award of a degree.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "What must a student do to be considered for a degree or certificate?",
+    "gold_answer": "The student must file an application with their school or program.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "Does the Registrar keep school or department student files in addition to transcripts and certifications?",
+    "gold_answer": "No. The policy says the Registrar does not maintain School or Department student records beyond transcripts and certifications.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "For how long does the policy recommend keeping a complete School or Department file after a student leaves after completing their studies?",
+    "gold_answer": "It usually recommends retaining the complete file for five years after the student leaves the University.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "What retention period is recommended for the complete file of a student who leaves without graduating?",
+    "gold_answer": "The policy recommends retaining the complete file for ten years.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "Who arranges for a student's diploma to be sent, and when is it mailed?",
+    "gold_answer": "The Registrar’s Office orders the diploma, and the vendor mails it after the degree conferral date.",
+    "expected_policy": "Retention of Student Education Records",
+    "expected_page": 2
+  },
+  {
+    "query": "What does the Additional Compensation policy say about senior-level employees taking on extra work?",
+    "gold_answer": "Senior-level employees in grade 15 and above are expected to provide such services without additional compensation.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "For an officer in grade 14 or below, what makes outside work potentially eligible for additional compensation?",
+    "gold_answer": "The work must fall outside the employee’s primary responsibilities and be work for which a new temporary or part-time employee would otherwise need to be hired.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "Can qualifying additional services be performed during an employee’s normal business hours?",
+    "gold_answer": "No. The policy requires the services to be performed outside the employee’s normal business hours.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "What two conditions must an instructional course meet before an officer may receive additional compensation for teaching it?",
+    "gold_answer": "The course or program must be needed for an identified student population and must fit the unit’s curriculum.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "When does the policy consider regular faculty unavailable to teach an additional-compensation course?",
+    "gold_answer": "When no regular University faculty member is both able and willing to teach it.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "Who must approve an officer’s request to teach, and why might they refuse it?",
+    "gold_answer": "The officer’s immediate supervisor and department head must give permission; they may refuse if teaching would interfere with the officer’s full-time duties.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 1
+  },
+  {
+    "query": "Who authorizes additional-compensation teaching appointments for Officers of Administration?",
+    "gold_answer": "The Vice President for Human Resources must authorize those appointments.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 2
+  },
+  {
+    "query": "Which office gives final approval for instructional appointments at the Medical Center under this policy?",
+    "gold_answer": "The Office of Faculty Affairs gives final approval for courses offered at the Medical Center.",
+    "expected_policy": "Additional Compensation",
+    "expected_page": 2
+  },
+  {
+    "query": "What must Columbia include in its annual security report under the Campus Safety and Security notice?",
+    "gold_answer": "It must include campus security policies and statistics on certain crimes on and around Columbia’s campuses.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 1
+  },
+  {
+    "query": "Where can someone obtain a printed copy of Columbia’s Annual Security Report?",
+    "gold_answer": "Printed copies are available at Public Safety offices on the Morningside and Medical Center campuses.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 1
+  },
+  {
+    "query": "How can a person request the campus crime report by mail?",
+    "gold_answer": "Send the request to the Department of Public Safety, Columbia University, 111 Low Library, Mail Code 4301, 535 West 116th Street, New York, NY 10027.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 1
+  },
+  {
+    "query": "What emergency number does the notice list for Public Safety at Morningside?",
+    "gold_answer": "The Morningside emergency number listed is 212-854-5555.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 1
+  },
+  {
+    "query": "What emergency numbers does the notice list for Manhattanville and the Medical Center?",
+    "gold_answer": "The listed emergency numbers are 212-853-3333 for Manhattanville and 212-305-7979 for the Medical Center.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 2
+  },
+  {
+    "query": "Which phone number does the notice list for the Vice President of Public Safety?",
+    "gold_answer": "It lists 212-854-2054.",
+    "expected_policy": "Campus Safety and Security",
+    "expected_page": 1
+  },
+  {
+    "query": "Which two central offices share responsibility for compliance around approved academic programs and their registration or financial-aid implications?",
+    "gold_answer": "The Office of the University Registrar and Student Financial Services share that responsibility.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 1
+  },
+  {
+    "query": "Which Columbia units fall under the Central Administration of Academic Programs policy?",
+    "gold_answer": "All Columbia University schools are governed by it, especially officers and staff responsible for creating programs or changing established programs.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 2
+  },
+  {
+    "query": "Are certifications of professional achievement eligible for federal or state student aid under this policy?",
+    "gold_answer": "No. The policy states that certifications of professional achievement are not eligible for federal or state student aid.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 2
+  },
+  {
+    "query": "What does the University Financial Aid Office review when deciding whether a program qualifies for federal or state aid?",
+    "gold_answer": "It reviews NYSED registration notices and supporting documents, program details such as type, length and required credits, and the applicable federal and state eligibility criteria.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 3
+  },
+  {
+    "query": "After a new program is found eligible for federal and state aid, what does the UFAO do once it receives the Department of Education’s approval?",
+    "gold_answer": "It notifies the Office of the Registrar of the program’s aid eligibility and provides the supporting review documentation.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 3
+  },
+  {
+    "query": "For an established program with a substantial change, what may the UFAO do to complete its eligibility determination?",
+    "gold_answer": "It notifies the Department of Education of the updated information and may request additional information from the Office of the Provost and the applicable school.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 3
+  },
+  {
+    "query": "What reviews must be complete before the Registrar assigns a University Program Code?",
+    "gold_answer": "The program must complete the University approval process, the UFAO student-aid eligibility review, and the Registrar’s final review with supporting documentation.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 4
+  },
+  {
+    "query": "What can happen if the Registrar receives incomplete or inaccurate program information?",
+    "gold_answer": "It can prevent final approval and proper SIS recording, potentially affecting student registration services and eligibility for federal or state aid.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 5
+  },
+  {
+    "query": "What does the annual spring inventory audit ask each school to confirm or report?",
+    "gold_answer": "Schools review the list of registered programs, confirm it includes all their programs, identify significant changes from the prior academic year, and report anticipated new programs or changes.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 6
+  },
+  {
+    "query": "How do the Registrar and Student Financial Services monitor compliance with student-aid requirements during the year?",
+    "gold_answer": "Their compliance offices conduct a monthly sample-based review of academic programs.",
+    "expected_policy": "Central Administration of the University's Academic Programs",
+    "expected_page": 6
+  },
+  {
+    "query": "What four sensitivity labels does Columbia use to classify University data?",
+    "gold_answer": "Sensitive Data, Confidential Data, Internal Data, and Public Data.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "If a system contains data from multiple sensitivity levels, which level determines the system’s classification?",
+    "gold_answer": "The system or endpoint is classified at the highest sensitivity level present.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "Who is responsible for evaluating and classifying the University data they oversee?",
+    "gold_answer": "The applicable Data Owner is responsible for evaluating and classifying that data.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What is the policy’s general definition of Sensitive Data?",
+    "gold_answer": "Sensitive Data is information protected by applicable laws, regulations, or industry standards, including examples such as HIPAA, HITECH, breach-notification laws, and PCI-DSS.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What kinds of identifying information can make data personally identifiable under this policy?",
+    "gold_answer": "Information that can distinguish or trace a person’s identity, or information linked or linkable to that person that is protected and could cause harm if improperly disclosed, can qualify as PII.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "Who determines whether information handled by Columbia constitutes PHI?",
+    "gold_answer": "The University’s Office of the General Counsel and Office of HIPAA Compliance are responsible for that determination.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "How does the policy distinguish Research Health Information from PHI?",
+    "gold_answer": "Research Health Information is individually identifiable health information created or received for research without a covered transaction, or received for research under valid HIPAA authorization or an IRB waiver.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What makes information Confidential Data under Columbia’s classification policy?",
+    "gold_answer": "It is information protected as confidential by law or contract, or other information the University considers appropriate for confidential treatment.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "Give two examples of Internal Data listed in the policy.",
+    "gold_answer": "Examples include internal operating procedures or manuals, internal memoranda or reports, and technical documents such as system configurations or floor plans.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "What qualifies as Public Data under the policy?",
+    "gold_answer": "Data that may or must be made available to the public without legal restrictions on access or use; examples include general-access Columbia web data and publicly available University reports.",
+    "expected_policy": "Data Classification Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "Who must perform business risk and impact assessments for each key business system in their area?",
+    "gold_answer": "Each Executive Manager must perform a Business Risk Assessment and Business Impact Analysis for every Key Business System used in their area of responsibility.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What should the business assessment establish about systems and data repositories?",
+    "gold_answer": "It should identify the criticality of Key Business Systems and the repositories containing the University Data relevant and necessary to those systems.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "Which core planning elements must the contingency plan define for a business unit?",
+    "gold_answer": "It must include key business processes, availability risks, recovery priorities, Recovery Time Objectives, and Recovery Point Objectives.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "How does the policy define a Recovery Time Objective?",
+    "gold_answer": "It is the duration and service level within which a business process must be restored after a disruption to avoid unacceptable continuity consequences.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "How does the policy define a Recovery Point Objective?",
+    "gold_answer": "It is the maximum tolerable period during which data might be lost from an Information Resource.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What outage scenarios must a Key Business System contingency plan address?",
+    "gold_answer": "It must cover short- and long-term outages when hardware, software, or networks become critically dysfunctional or stop working, including the impact of unavailability and how operations will continue.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What two operational plans must a contingency plan include for outage response and recovery?",
+    "gold_answer": "An Emergency Mode Operations Plan for continuing work during a temporary outage and a Recovery Plan for returning services to normal on-site operations after the disaster.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What should a data-backup plan say about restoring encrypted backup media?",
+    "gold_answer": "It must describe a method to restore encrypted backup media, including encryption-key management.",
+    "expected_policy": "Business Continuity and Disaster Recovery Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "When does Columbia treat a second paid University position as dual employment?",
+    "gold_answer": "When an employee holds two or more paid positions in more than one University department.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 1
+  },
+  {
+    "query": "Can another department hire an employee into a regular position if one of the employee’s current positions already requires a full-time work week?",
+    "gold_answer": "No. The policy says an employee with a full-time position will not be hired by another department for another regular full- or part-time position.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 1
+  },
+  {
+    "query": "What is the weekly-hours ceiling for an employee in a less-than-full-time position who takes part-time duties in another department?",
+    "gold_answer": "The regularly scheduled work week must not exceed 35 hours.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 2
+  },
+  {
+    "query": "Whose authorization is required before an employee’s additional part-time duties are scheduled?",
+    "gold_answer": "The unit that initially hired the employee must authorize the additional work.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 2
+  },
+  {
+    "query": "If the two departments pay different hourly rates, which rate applies under the dual-employment policy?",
+    "gold_answer": "Both departments pay the higher of the hourly rates.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 2
+  },
+  {
+    "query": "Which department handles payroll forms for an employee with dual employment?",
+    "gold_answer": "The department that first hired the employee is responsible for the payroll forms for administrative purposes.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 2
+  },
+  {
+    "query": "Which department pays occasional overtime when the employee exceeds the scheduled hours?",
+    "gold_answer": "The department that exceeds the scheduled hours pays the occasional overtime.",
+    "expected_policy": "Dual Employment",
+    "expected_page": 2
+  },
+  {
+    "query": "By what date must a new employee complete Section I of the I-9?",
+    "gold_answer": "Section I must be completed on or before the employee’s first day of employment.",
+    "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "What is the deadline for completing Section II of the I-9 after work begins?",
+    "gold_answer": "Section II must be completed within three business days of the employee’s first day of work.",
+    "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What kind of documentation must employees provide with the I-9 to establish identity and work eligibility?",
+    "gold_answer": "They must provide the required original supporting documents establishing their identity and eligibility to work in the United States.",
+    "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "When should an employee notify a supervisor that they need sick time?",
+    "gold_answer": "The employee must notify the supervisor in advance or within the first hour of their normal starting time.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 1
+  },
+  {
+    "query": "When may a department request a health-care provider note for an absence longer than three consecutive workdays?",
+    "gold_answer": "For an absence longer than three consecutive workdays that is not covered by New York Safe and Sick Leave, the department may require reasonable documentation from a licensed health-care provider.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 1
+  },
+  {
+    "query": "If requested, by when must documentation for an extended sick absence be produced?",
+    "gold_answer": "It must be produced within seven calendar days after the employee returns to work.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 1
+  },
+  {
+    "query": "What does the policy expect regarding outside activities during sick leave or disability leave?",
+    "gold_answer": "Employees are expected not to engage in outside activities that conflict with their treatment plan or suggest misuse of the University’s leave policies.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 2
+  },
+  {
+    "query": "How much salary continuation may a full-time Officer of Administration or Officer of the Libraries receive for an extended absence?",
+    "gold_answer": "Up to six months during any rolling 12-month period when the extended absence is caused by the employee’s own disability, illness, or injury.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 2
+  },
+  {
+    "query": "What must happen before an employee becomes eligible for a new sick-leave period after using one?",
+    "gold_answer": "The employee must pass their service anniversary date and return to work.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 3
+  },
+  {
+    "query": "May an employee use vacation time if no sick time is available?",
+    "gold_answer": "Yes, but only with the supervisor’s permission.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 3
+  },
+  {
+    "query": "How is the sick-time schedule adjusted for a regular part-time employee?",
+    "gold_answer": "It is prorated based on the number of days and hours the employee works each week.",
+    "expected_policy": "Sick Leave",
+    "expected_page": 3
+  },
+  {
+    "query": "What does the Human Resources Record Retention Schedule (RRS-CUHR) specify?",
+    "gold_answer": "It lists University record types for which Columbia Human Resources is the Office of Record and the retention period for each.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "How does this policy direct staff to handle records that are not listed in the RRS-CUHR?",
+    "gold_answer": "They are not covered by this policy and should be retained in a manner consistent with existing practice and procedure.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What are the Office of Record’s responsibilities for official records?",
+    "gold_answer": "It identifies records to retain, determines retention periods with the Office of General Counsel, arranges proper storage, and coordinates disposal after the retention period expires.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "When does a document hold stop routine disposal of records?",
+    "gold_answer": "When records relate to pending or ongoing litigation, a government investigation, or an audit, disposal must stop until the matter is resolved, appeals are exhausted, and the retention period has expired.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "How long should departments outside the Office of Record keep their copies of official HR records?",
+    "gold_answer": "They should keep copies only as long as the copies are useful, except when a document hold applies.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "Do electronic files and records on offline media fall within the policy’s examples of records?",
+    "gold_answer": "Yes. Examples include data stored on computers or offline media, as well as computer programs and their documentation.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "What types of material does the policy classify as non-records that users may dispose of at their discretion?",
+    "gold_answer": "Examples include duplicates of official records not under hold, publicly available reference materials, materials with no informational value, spam or junk mail, and blank forms.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 3
+  },
+  {
+    "query": "How often does the policy recommend reviewing the RRS-CUHR for accuracy?",
+    "gold_answer": "It recommends that Columbia Human Resources review it every three years.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 4
+  },
+  {
+    "query": "What two conditions generally permit disposal of an HR record under the RRS-CUHR?",
+    "gold_answer": "Its retention period must have expired and continued preservation must not be required by a current document hold.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 4
+  },
+  {
+    "query": "Does the HR record disposal policy depend on whether the record is paper or electronic?",
+    "gold_answer": "No. Disposal applies regardless of the record’s medium or location, and must follow the University’s sanitization and disposal policy.",
+    "expected_policy": "Human Resources Record Retention Policy",
+    "expected_page": 4
+  },
+  {
+    "query": "Which kinds of event activities require a certified local Fire Marshal permit under the Event Fire Safety Policy?",
+    "gold_answer": "Vehicle displays, fog machines, fueled cooking demonstrations, lasers, exhibits, or extensive productions with staging and props require a certified permit.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "Who is responsible for the costs associated with permits, floor-plan approval, and standby fire watch?",
+    "gold_answer": "The event sponsor is responsible for those fees.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "How far ahead of the event must the permit be provided to University Event Management?",
+    "gold_answer": "At least three business days before the event.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "What does the policy require organizers to do if a fire alarm sounds during an event?",
+    "gold_answer": "Raise the house lights if needed and instruct participants to leave the area or follow directions from fire-safety or fire-department personnel.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "Are open-flame candles allowed in University Event Management facilities?",
+    "gold_answer": "Generally no. Votive candles and sternos are exceptions, and otherwise only flameless electric candles are allowed; limited outdoor exceptions may be considered case by case.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "Who is responsible for ensuring that an event stays within its venue’s occupancy limit?",
+    "gold_answer": "The sponsoring organization must take positive steps to ensure the occupancy limit is observed throughout the event.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "How does the policy use ticket sales to help enforce event capacity?",
+    "gold_answer": "Ticket sales are restricted to the appropriate capacity limit for the venue.",
+    "expected_policy": "Event Fire Safety Policy",
+    "expected_page": 2
+  },
+  {
+    "query": "What communication channel has Columbia designated as an official means of communication with students?",
+    "gold_answer": "Email is an official means of communication with students.",
+    "expected_policy": "Student Email Communication Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "Does every student need an official Columbia email address under this policy?",
+    "gold_answer": "Yes. An official Columbia University email address is required for all students.",
+    "expected_policy": "Student Email Communication Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "How is a student’s official Columbia email address associated with their account?",
+    "gold_answer": "The official address is based on the University Network ID (UNI) assigned to the student.",
+    "expected_policy": "Student Email Communication Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "How frequently does the policy expect students to read their Columbia email?",
+    "gold_answer": "It expects students to read their University email frequently and consistently.",
+    "expected_policy": "Student Email Communication Policy",
+    "expected_page": 1
+  },
+  {
+    "query": "If a student redirects official email and a message is lost, does that remove the student’s responsibility for the communication?",
+    "gold_answer": "No. Students who forward email do so at their own risk, and loss caused by forwarding does not remove their responsibility for communications sent to the official address.",
+    "expected_policy": "Student Email Communication Policy",
+    "expected_page": 1
+  }
+]
