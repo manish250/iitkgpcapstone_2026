@@ -16,10 +16,17 @@ SAMPLE_EVIDENCE = [{
 }]
 
 
+SAMPLE_FOLLOWUPS = [
+    "Who can approve travel expense reports for a department?",
+    "How long do I have to submit an expense report?",
+    "What expenses are not reimbursable?",
+]
+
+
 def run_turn(question, thread_id):
     time.sleep(0.4)
     q = (question or "").strip()
-    base = {"plan": {}, "evidence": []}
+    base = {"plan": {}, "evidence": [], "followups": []}
     tele = {"latency_ms": 400.0, "tool_calls": 0, "model_calls": 1, "generation_tokens": 0,
             "evidence_count": 0, "estimated_cost_usd": None, "failure_category": "none_observed"}
     if len(q.split()) < 3:
@@ -29,6 +36,7 @@ def run_turn(question, thread_id):
     if any(k in q.casefold() for k in _KEYWORDS):
         tele.update(tool_calls=2, model_calls=3, generation_tokens=180, evidence_count=1)
         return {**base, "status": "accepted", "evidence": SAMPLE_EVIDENCE,
+                "followups": SAMPLE_FOLLOWUPS,
                 "answer": ("[Demo answer] An employee cannot approve their own expense report; "
                            "a supervisor or delegate must approve it "
                            "[Sample Travel and Expense Policy, PDF p. 4]."),

@@ -169,7 +169,7 @@ def render_support(backend):
     if phase == "idle":
         if lt and ss.messages[-1]["status"] != "error" and not ss.feedback_done:
             st.write("**Did this answer your question?**")
-            c1, c2, _ = st.columns([1, 1.3, 4])
+            c1, c2, _ = st.columns([1.4, 1.8, 3])
             if c1.button("👍 Yes, this helped", key=f"yes_{len(ss.messages)}"):
                 ss.feedback_done = True
                 st.rerun()
@@ -270,7 +270,7 @@ st.title(APP_TITLE)
 st.caption("Explains policy text and cites its sources. Always check the cited passage; "
            "this is not legal advice.")
 
-pending = None
+pending = ss.pop("pending_q", None)
 if not ss.messages:
     st.write("Try a question:")
     for i, q in enumerate(SUGGESTED):
@@ -280,6 +280,22 @@ if not ss.messages:
 for m in ss.messages:
     render_message(m, backend)
 
+def render_followups():
+    """Three related questions under the latest verified answer; clicking one asks it."""
+    if not ss.messages or ss.support["phase"] != "idle":
+        return
+    last = ss.messages[-1]
+    fu = last.get("followups") if last["role"] == "assistant" else None
+    if not fu:
+        return
+    st.write("**Related questions**")
+    for i, q in enumerate(fu):
+        if st.button(q, key=f"fu_{len(ss.messages)}_{i}"):
+            ss.pending_q = q
+            st.rerun()
+
+
+render_followups()
 render_support(backend)
 
 blocked = ss.support["phase"] == "unresolved"
@@ -303,6 +319,7 @@ if prompt:
                 ss.messages.append({
                     "role": "assistant", "content": res["answer"], "status": res["status"],
                     "telemetry": res["telemetry"], "evidence": res["evidence"],
+                    "followups": res.get("followups", []),
                 })
             except Exception:
                 import logging

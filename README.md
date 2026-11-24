@@ -43,6 +43,20 @@ Support requests use the notebook's `M4SupportEscalationAgent` when `UNIVERSITY_
 pip install -r requirements-dev.txt && python -m pytest -q tests
 ```
 
+## Related questions
+After each **verified** answer the UI offers three related questions as buttons (click one to ask it).
+In live mode they come from one small extra model call (max 150 tokens) grounded in the policies just
+retrieved; it sits outside the bounded graph, so it is not counted in the per-query call/token limits.
+Set `FOLLOWUP_SUGGESTIONS=off` to disable it. Clarifications and fallbacks never show suggestions.
+
+## Retries
+- **Embedding calls** (index build and each question): up to 3 retries with exponential backoff (~1s, 2s, 4s,
+  jittered) for timeouts, connection errors and HTTP 408/425/429/5xx; `Retry-After` is honoured (max 30s).
+  Certificate errors and other 4xx (e.g. 401/403) are **never** retried. Set `EMBEDDING_MAX_RETRIES`.
+- **LLM calls:** retried by the OpenAI client (default 2). Set `LLM_MAX_RETRIES`.
+- **Inside the agent graph there are no extra retries** - the notebook's call budget stays intact; a failed
+  step degrades to a safe fallback. Related-question suggestions are not retried.
+
 ## Behaviour carried over from the notebook / PDF
 - Sources are shown only for `accepted` answers; clarifications and fallbacks never look evidence-backed.
 - Citation chips: green only if title + page match returned evidence, otherwise orange "unverified".
