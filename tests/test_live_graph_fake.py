@@ -11,6 +11,13 @@ from langchain_core.documents import Document
 class FakeLLM:
     def __init__(self, cite_ok=True):
         self.cite_ok = cite_ok
+        self.followup_text = json.dumps({"questions": [
+            "Who can approve travel expense reports?",
+            "Can an employee approve their own expense report?",   # same as the asked question -> dropped
+            "What is the deadline to submit an expense report?",
+            "Not a question",                                        # no '?' -> dropped
+            "Which expenses are reimbursable under the policy?",
+            "What happens if an expense report is late?"]})
         self.chat = types.SimpleNamespace(completions=types.SimpleNamespace(create=self.create))
 
     def create(self, **kw):
@@ -24,6 +31,8 @@ class FakeLLM:
             else:
                 out = {"action": "search_policy", "search_query": q, "clarification_question": ""}
             text = json.dumps(out)
+        elif sysmsg.startswith("You suggest follow-up"):
+            text = self.followup_text
         elif sysmsg.startswith("Review the draft"):
             text = json.dumps({"verdict": "accept", "issues": [], "feedback": ""})
         elif sysmsg.startswith("Revise"):
@@ -65,3 +74,27 @@ def test_unmatched_citation_never_verified():
     r = pa.run_turn("Can I approve my own expense report?", "policy-ui-t3")
     assert r["status"] in {"safe_fallback", "revision_unverified"}
     assert r["evidence"] == []   # evidence withheld unless accepted
+
+
+def test_followups_three_grounded_and_filtered():
+    setup()
+    r = pa.run_turn("Can an employee approve their own expense report?", "policy-ui-t4")
+    fu = r["followups"]
+    assert len(fu) == 3 and all(q.endswith("?") for q in fu)
+    assert "Can an employee approve their own expense report?" not in fu
+
+
+def test_followups_empty_when_not_accepted_or_bad_json():
+    setup()
+    assert pa.run_turn("policy?", "policy-ui-t5")["followups"] == []       # clarification
+    pa.client.followup_text = "sorry, no json here"
+    ev = [{"source": "Travel Policy", "text": "x"}]
+    assert pa.suggest_followups("q?", "a", ev) == []
+    pa.client.followup_text = '<think>hmm {x}</think>{"questions": ["What is the late filing penalty?"]}'
+    assert pa.suggest_followups("q?", "a", ev) == ["What is the late filing penalty?"]
+
+
+def test_followups_can_be_turned_off(monkeypatch):
+    setup()
+    monkeypatch.setattr(pa, "FOLLOWUPS_ENABLED", False)
+    assert pa.run_turn("Can I approve my own expense report?", "policy-ui-t6")["followups"] == []

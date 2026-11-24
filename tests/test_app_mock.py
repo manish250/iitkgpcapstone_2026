@@ -117,3 +117,20 @@ def test_new_chat_mints_new_thread():
     old = at.session_state.thread_id
     [b for b in at.button if "New chat" in b.label][0].click().run()
     assert at.session_state.thread_id != old and not at.chat_message
+
+
+def test_related_questions_shown_and_clickable():
+    at = ask(fresh(), "Can an employee approve their own travel expense report?")
+    labels = [b.label for b in at.button]
+    for q in mock_agent.SAMPLE_FOLLOWUPS:
+        assert q in labels
+    [b for b in at.button if b.label == mock_agent.SAMPLE_FOLLOWUPS[0]][0].click().run()
+    assert not at.exception
+    users = [m for m in at.chat_message if m.name == "user"]
+    assert mock_agent.SAMPLE_FOLLOWUPS[0] in users[-1].text[0].value
+
+
+def test_no_related_questions_for_clarification_or_fallback():
+    at = ask(fresh(), "policy?")
+    assert not any(q in [b.label for b in at.button] for q in mock_agent.SAMPLE_FOLLOWUPS)
+    assert "Related questions" not in texts(at)
