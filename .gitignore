@@ -1,0 +1,6 @@
+.env
+*.sqlite
+*.crt
+*.zip
+__pycache__/
+.venv/
