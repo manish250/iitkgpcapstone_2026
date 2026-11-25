@@ -1,0 +1,896 @@
+[
+  {
+    "id": 1,
+    "topic": "Student records and privacy",
+    "question": "What makes a record an education record under Columbia's FERPA policy?",
+    "gold_answer": "It is a record, file, document, or other material that the University regularly maintains, that relates directly to a student, and that is maintained in connection with the student's attendance.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 2."
+  },
+  {
+    "id": 2,
+    "topic": "Student records and privacy",
+    "question": "Are private faculty notes automatically part of a student's FERPA education record?",
+    "gold_answer": "Not if they are kept in the maker's sole possession as a personal memory aid and are not accessible or disclosed to others, except a temporary substitute.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 2."
+  },
+  {
+    "id": 3,
+    "topic": "Student records and privacy",
+    "question": "Can a student inspect records kept by a treating clinician for treatment?",
+    "gold_answer": "The FERPA policy excludes treatment records created and used only in connection with treatment and unavailable to others except treatment providers. The policy notes that other laws or University policies may provide access rights.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 2."
+  },
+  {
+    "id": 4,
+    "topic": "Student records and privacy",
+    "question": "Are Columbia Public Safety records treated as FERPA education records in this policy?",
+    "gold_answer": "No. The policy lists records of the University's Department of Public Safety among the records excluded from the definition of education records.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 2."
+  },
+  {
+    "id": 5,
+    "topic": "Student records and privacy",
+    "question": "Does FERPA cover a record created after a student leaves Columbia?",
+    "gold_answer": "Not when it was created or received after the student stopped attending and is not directly related to the student's attendance.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 2."
+  },
+  {
+    "id": 6,
+    "topic": "Student records and privacy",
+    "question": "Is a request to inspect \"all records\" normally specific enough?",
+    "gold_answer": "No. The policy says a general request to inspect \"all records\" is not normally sufficient to identify the records the student wants to review.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 3."
+  },
+  {
+    "id": 7,
+    "topic": "Student records and privacy",
+    "question": "Who helps route a student's request to inspect education records?",
+    "gold_answer": "The Registrar's Office forwards copies of the request to the offices holding the requested files and can facilitate inspection and review.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 3."
+  },
+  {
+    "id": 8,
+    "topic": "Student records and privacy",
+    "question": "May Columbia disclose personally identifiable education-record information without student consent?",
+    "gold_answer": "As a general rule, no. The University requires written student consent unless a FERPA exception permits disclosure.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 4."
+  },
+  {
+    "id": 9,
+    "topic": "Student records and privacy",
+    "question": "When may a University official access a student's record without consent?",
+    "gold_answer": "A University official, including a contracted party, may access it when the official has a legitimate educational interest and needs it to fulfill professional responsibilities; the University determines the appropriate scope.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 4."
+  },
+  {
+    "id": 10,
+    "topic": "Student records and privacy",
+    "question": "Can student-record information be disclosed for a financial-aid matter?",
+    "gold_answer": "Yes. The policy lists access required in connection with a student's application for or receipt of financial aid as a permitted disclosure.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 4."
+  },
+  {
+    "id": 11,
+    "topic": "Student records and privacy",
+    "question": "When may a parent receive a student's education-record information under the policy?",
+    "gold_answer": "A parent may qualify if the student is a dependent for federal income-tax purposes. The University generally does not provide records to parents, but may do so when it believes disclosure is in the dependent student's interest.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 4."
+  },
+  {
+    "id": 12,
+    "topic": "Student records and privacy",
+    "question": "Can Columbia disclose education records in response to a subpoena or court order?",
+    "gold_answer": "The policy permits disclosure in compliance with a judicial order or lawfully issued subpoena, subject to the policy and applicable law.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 4."
+  },
+  {
+    "id": 13,
+    "topic": "Student records and privacy",
+    "question": "What restriction applies when student information is released to a third party?",
+    "gold_answer": "Unless a FERPA exception applies, the third party must not give another party access without the student's written consent and may use the information only for the purpose for which it was disclosed.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 5."
+  },
+  {
+    "id": 14,
+    "topic": "Student records and privacy",
+    "question": "Can Columbia release directory information without consent?",
+    "gold_answer": "Yes. The University may release designated directory information without consent, after giving notice of the categories it treats as directory information.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 5."
+  },
+  {
+    "id": 15,
+    "topic": "Student records and privacy",
+    "question": "Name examples of information Columbia designates as directory information.",
+    "gold_answer": "Examples listed include name, UNI, addresses, email, telephone listing, date and place of birth, images, major, recognized activities, attendance dates, degrees, awards, and prior institutions.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 5."
+  },
+  {
+    "id": 16,
+    "topic": "Student records and privacy",
+    "question": "Where should a student ask about preventing release of directory information?",
+    "gold_answer": "The student should contact the Office of the Registrar about the procedures for requesting that directory information not be released.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 5."
+  },
+  {
+    "id": 17,
+    "topic": "Student records and privacy",
+    "question": "Does Columbia routinely notify parents about a student's alcohol-related incident without consent?",
+    "gold_answer": "No. The policy says the University does not routinely communicate with parents, guardians, or emergency contacts absent student consent.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 6."
+  },
+  {
+    "id": 18,
+    "topic": "Student records and privacy",
+    "question": "When may Columbia notify a parent about an alcohol or drug incident involving a student under 21?",
+    "gold_answer": "At the University's discretion, an authorized office may notify a parent, guardian, or emergency contact after considering the circumstances, including covered policy or legal violations and alcohol- or drug-related medical emergencies.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 6."
+  },
+  {
+    "id": 19,
+    "topic": "Student records and privacy",
+    "question": "Does FERPA require Columbia to notify a parent after a covered alcohol-related event?",
+    "gold_answer": "No. The policy expressly says it does not require notification; authorized officials make a case-by-case determination.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 6."
+  },
+  {
+    "id": 20,
+    "topic": "Student records and privacy",
+    "question": "What should an office record when someone requests access to a student's education record?",
+    "gold_answer": "For access that must be logged, the office should record the requester's legitimate interest and whether the request was granted, subject to listed exceptions.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 7."
+  },
+  {
+    "id": 21,
+    "topic": "Student records and privacy",
+    "question": "May a student inspect the record of requests for access to their education records?",
+    "gold_answer": "Yes. The policy says a student may inspect the access records maintained for their education records.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 7."
+  },
+  {
+    "id": 22,
+    "topic": "Student records and privacy",
+    "question": "Does a student always receive copies of records after inspecting them?",
+    "gold_answer": "No. Copies are ordinarily not provided except for transcripts, unless the inability to obtain copies would effectively prevent the student from exercising the right to inspect and review.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 3."
+  },
+  {
+    "id": 23,
+    "topic": "Student records and privacy",
+    "question": "Can Columbia require a student to waive access to confidential recommendation letters?",
+    "gold_answer": "No. The policy says no student will be required by the University to waive access rights to confidential recommendations.",
+    "source": "Federal Family Educational Rights and Privacy Act (FERPA), PDF p. 3."
+  },
+  {
+    "id": 24,
+    "topic": "Student records and privacy",
+    "question": "How long are Columbia student transcripts from 1982 onward retained?",
+    "gold_answer": "The student-record retention policy says transcripts from 1982 forward are maintained permanently.",
+    "source": "Retention of Student Education Records, PDF p. 4."
+  },
+  {
+    "id": 25,
+    "topic": "Student records and privacy",
+    "question": "How long should separately maintained student-data change logs be kept?",
+    "gold_answer": "Electronic logs of changes to enrollment and other data, including timestamps and the users who made changes, should be kept for ten years if maintained separately.",
+    "source": "Retention of Student Education Records, PDF p. 4."
+  },
+  {
+    "id": 26,
+    "topic": "Protection of minors",
+    "question": "Who is covered by Columbia's Protection and Treatment of Minors policy?",
+    "gold_answer": "All University employees are covered. So are volunteers, contractors, and consultants who interact with, supervise, chaperone, or oversee minors in University or University-sponsored programs and activities.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 3."
+  },
+  {
+    "id": 27,
+    "topic": "Protection of minors",
+    "question": "Who is considered a minor under the policy?",
+    "gold_answer": "A minor is an individual under 18 years old.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 6."
+  },
+  {
+    "id": 28,
+    "topic": "Protection of minors",
+    "question": "What should staff do first if a minor is in immediate danger?",
+    "gold_answer": "Call 911 and, as appropriate, the Columbia Department of Public Safety for the campus involved.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 3."
+  },
+  {
+    "id": 29,
+    "topic": "Protection of minors",
+    "question": "What reporting steps apply to suspected abuse by a parent or caregiver?",
+    "gold_answer": "For reasonable cause to believe a parent or caregiver abused or maltreated a minor, contact the Office of the Protection of Minors, call the New York State Child Abuse and Maltreatment Hotline, and notify the appropriate program director or supervisor, Chair, or Dean; call emergency services if there is immediate danger.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 3."
+  },
+  {
+    "id": 30,
+    "topic": "Protection of minors",
+    "question": "What information should a reporter obtain from the New York State hotline?",
+    "gold_answer": "The policy directs callers to obtain the hotline representative's name and an identification number.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 3."
+  },
+  {
+    "id": 31,
+    "topic": "Protection of minors",
+    "question": "What written follow-up is required after an oral report to the New York State hotline?",
+    "gold_answer": "Complete the Office of Children and Family Services form and send it to the local child-protective-services office where the incident occurred; send a copy to the Executive Director of the Office of the Protection of Minors.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 3."
+  },
+  {
+    "id": 32,
+    "topic": "Protection of minors",
+    "question": "What should an employee do about suspected abuse by a Columbia community member who is not a parent or caregiver?",
+    "gold_answer": "If there is immediate danger, call 911 and Public Safety as appropriate. Otherwise notify the Executive Director of the Office of the Protection of Minors, notify the program director or supervisor/Chair/Dean, and follow the office's guidance on authorities to contact.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 4."
+  },
+  {
+    "id": 33,
+    "topic": "Protection of minors",
+    "question": "What additional report is required if the suspected abuser is a Columbia employee?",
+    "gold_answer": "The policy requires a report to the University's Office of Institutional Equity through its online \"File a Report\" process.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 4."
+  },
+  {
+    "id": 34,
+    "topic": "Protection of minors",
+    "question": "Does a reporter need multiple warning signs before reporting a concern?",
+    "gold_answer": "No. The policy identifies a single witnessed incident, a child's statement, information from an adult with reasonable suspicion, an implausible injury explanation, or a combination of signs as possible bases for concern.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 4."
+  },
+  {
+    "id": 35,
+    "topic": "Protection of minors",
+    "question": "What does \"maltreatment\" include under the policy?",
+    "gold_answer": "It includes impairment or imminent risk of impairment to a child's physical, mental, or emotional condition because a responsible adult fails to provide minimum care, such as food, clothing, shelter, education, supervision, guardianship, or medical care, or uses excessive corporal punishment or abandons the child.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 6."
+  },
+  {
+    "id": 36,
+    "topic": "Protection of minors",
+    "question": "How far in advance must a residential program involving minors be registered?",
+    "gold_answer": "A program with an overnight stay in a Columbia residence hall must be registered at least one month before it begins.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 7."
+  },
+  {
+    "id": 37,
+    "topic": "Protection of minors",
+    "question": "How far in advance must a non-residential program involving minors be registered?",
+    "gold_answer": "At least two weeks before the program begins, including a program that uses or tours Columbia laboratories.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 7."
+  },
+  {
+    "id": 38,
+    "topic": "Protection of minors",
+    "question": "Must people who supervise or interact with minors complete Protection of Minors training?",
+    "gold_answer": "Yes. Covered community members who interact with, supervise, chaperone, or oversee minors must complete the required training.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 7."
+  },
+  {
+    "id": 39,
+    "topic": "Protection of minors",
+    "question": "What does the required Protection of Minors training cover?",
+    "gold_answer": "It addresses University policy and relevant law, abuse and maltreatment definitions and indicators, responses and reporting, and appropriate interactions and boundaries with minors.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 7."
+  },
+  {
+    "id": 40,
+    "topic": "Protection of minors",
+    "question": "When may the University require background checks for people in a minors program?",
+    "gold_answer": "The policy identifies situations such as overnight stays, changing clothes, locker-room access, international travel, extended work or study with an adult, and one-on-one contact in a private space; the University may require checks in other situations it deems necessary.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 8."
+  },
+  {
+    "id": 41,
+    "topic": "Protection of minors",
+    "question": "How should staff handle necessary one-on-one contact with a minor?",
+    "gold_answer": "Avoid being alone with a minor in person or online. If one-on-one interaction is necessary, meet in a public space or a room with windows and clear visibility, following the policy's guidance.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 8."
+  },
+  {
+    "id": 42,
+    "topic": "Protection of minors",
+    "question": "What does the policy require before staff initiate touching a minor?",
+    "gold_answer": "Ask permission first, and respect any resistance from the minor.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 43,
+    "topic": "Protection of minors",
+    "question": "May a staff member email a minor from a personal account for program communication?",
+    "gold_answer": "No. Program-related email should use Columbia email, and communication with a minor must have an academic or programmatic need.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 44,
+    "topic": "Protection of minors",
+    "question": "What are the policy's texting rules for minors-program participants?",
+    "gold_answer": "Text only for an academic or programmatic need and use group texts to everyone on a team or program, except in an emergency.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 45,
+    "topic": "Protection of minors",
+    "question": "May staff friend or follow minors-program participants on social media?",
+    "gold_answer": "No. The policy prohibits friending or following participants on social media.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 46,
+    "topic": "Protection of minors",
+    "question": "Can a staff member transport a minor alone in a car?",
+    "gold_answer": "No. The policy prohibits transporting minors in cars alone and also prohibits allowing a minor to drive a staff person alone in a car.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 47,
+    "topic": "Protection of minors",
+    "question": "What must happen if restraint is necessary to protect a minor from harm?",
+    "gold_answer": "Document the incident and disclose it to the Program Director and the minor's parent or legal guardian.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 48,
+    "topic": "Protection of minors",
+    "question": "May staff use or possess alcohol or drugs while responsible for a minor?",
+    "gold_answer": "No. The policy prohibits using, possessing, or being under the influence of drugs or alcohol while on duty or responsible for a minor's welfare.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 49,
+    "topic": "Protection of minors",
+    "question": "Can minors be left without supervision during a Columbia program?",
+    "gold_answer": "No. The policy requires proper supervision and prohibits leaving minors unsupervised.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 9."
+  },
+  {
+    "id": 50,
+    "topic": "Protection of minors",
+    "question": "Are all communications confidential when someone reports suspected abuse?",
+    "gold_answer": "No. The policy notes limited confidentiality exceptions, including certain protected communications to attorneys or clergy and clinical reporting where disclosure would breach a patient's legal confidentiality rights.",
+    "source": "Protection and Treatment of Minors at Columbia University, PDF p. 5."
+  },
+  {
+    "id": 51,
+    "topic": "Travel expenses",
+    "question": "What does Columbia's Travel Expense Policy cover?",
+    "gold_answer": "It covers necessary and reasonable expenses for faculty, staff, and students traveling on University business or in support of sponsored research, subject to University rules and applicable sponsor requirements.",
+    "source": "Travel Expense Policy, PDF p. 3."
+  },
+  {
+    "id": 52,
+    "topic": "Travel expenses",
+    "question": "Who is responsible for the accuracy of a travel expense report in Concur?",
+    "gold_answer": "The traveler is responsible for completing the report under policy and for the accuracy of information, even when another person prepares it.",
+    "source": "Travel Expense Policy, PDF p. 4."
+  },
+  {
+    "id": 53,
+    "topic": "Travel expenses",
+    "question": "Can an employee approve their own travel expense report?",
+    "gold_answer": "No. An individual may not approve their own report, regardless of approval authority.",
+    "source": "Travel Expense Policy, PDF p. 5."
+  },
+  {
+    "id": 54,
+    "topic": "Travel expenses",
+    "question": "What should happen if the financial approver reports to the person being reimbursed?",
+    "gold_answer": "The Financial Approver should add an appropriate ad hoc approver, such as a DAF or SBO, so the payee does not approve their own report.",
+    "source": "Travel Expense Policy, PDF p. 5."
+  },
+  {
+    "id": 55,
+    "topic": "Travel expenses",
+    "question": "What is the travel expense report filing deadline?",
+    "gold_answer": "Submit the Expense Report within 365 days of the trip end date. The policy states that expenses submitted after that deadline will not be reimbursed.",
+    "source": "Travel Expense Policy, PDF p. 6."
+  },
+  {
+    "id": 56,
+    "topic": "Travel expenses",
+    "question": "What should a traveler do if a receipt lacks required details?",
+    "gold_answer": "Provide the available supporting evidence, such as a card statement showing date, location, and amount or a rental agreement, and describe the purchase and any costs that must be segregated.",
+    "source": "Travel Expense Policy, PDF p. 7."
+  },
+  {
+    "id": 57,
+    "topic": "Travel expenses",
+    "question": "Does Columbia encourage booking travel through its Travel Management Company?",
+    "gold_answer": "Yes. The policy encourages use of the University's preferred Travel Management Company and notes benefits of using it.",
+    "source": "Travel Expense Policy, PDF p. 8."
+  },
+  {
+    "id": 58,
+    "topic": "Travel expenses",
+    "question": "How does the policy describe the reimbursable airfare amount when fares are booked through the central pay account?",
+    "gold_answer": "The traveler is reimbursed based on the lowest logical fare, including applicable agency booking fees and taxes.",
+    "source": "Travel Expense Policy, PDF p. 8."
+  },
+  {
+    "id": 59,
+    "topic": "Travel expenses",
+    "question": "How does the policy define domestic travel for airfare purposes?",
+    "gold_answer": "Domestic travel includes travel within the United States and its territories; other destinations are treated as international travel.",
+    "source": "Travel Expense Policy, PDF p. 9."
+  },
+  {
+    "id": 60,
+    "topic": "Travel expenses",
+    "question": "What air-carrier rule applies to federally sponsored travel?",
+    "gold_answer": "The policy requires a U.S.-owned airline or a U.S.-airline-designated codeshare flight number, subject to listed Fly America Act exceptions.",
+    "source": "Travel Expense Policy, PDF p. 10."
+  },
+  {
+    "id": 61,
+    "topic": "Travel expenses",
+    "question": "What documents can support an airfare reimbursement?",
+    "gold_answer": "Examples include the passenger ticket or receipt, boarding pass, website statement or confirmation, or itinerary issued by a travel agent, with the required trip details.",
+    "source": "Travel Expense Policy, PDF p. 11."
+  },
+  {
+    "id": 62,
+    "topic": "Travel expenses",
+    "question": "Are corporate jets and helicopters permitted for ordinary commercial travel under the policy?",
+    "gold_answer": "No. Travel by non-commercial means such as corporate jets or helicopters is not allowed under the policy.",
+    "source": "Travel Expense Policy, PDF p. 11."
+  },
+  {
+    "id": 63,
+    "topic": "Travel expenses",
+    "question": "When may a traveler rent a car for University business?",
+    "gold_answer": "Rent a vehicle only when less expensive comparable transportation is unavailable; the policy limits reimbursable rentals to specified small vehicle classifications.",
+    "source": "Travel Expense Policy, PDF p. 12."
+  },
+  {
+    "id": 64,
+    "topic": "Travel expenses",
+    "question": "Which ground transportation costs may be reimbursed for business purposes?",
+    "gold_answer": "Reasonable business transportation such as bus, subway, shuttle, taxi, or private car service, plus reasonable tips when necessary, may be reimbursed.",
+    "source": "Travel Expense Policy, PDF p. 14."
+  },
+  {
+    "id": 65,
+    "topic": "Travel expenses",
+    "question": "What documentation is needed when a conference hotel rate exceeds the stated lodging amount?",
+    "gold_answer": "Attach the conference flyer showing the conference location and the offered hotel accommodations. Sponsored travel subject to GSA lodging rates must segregate the amount above the applicable rate to the appropriate account.",
+    "source": "Travel Expense Policy, PDF p. 15."
+  },
+  {
+    "id": 66,
+    "topic": "Travel expenses",
+    "question": "Are meeting and conference registration fees reimbursable?",
+    "gold_answer": "Yes. The policy permits reimbursement and prefers payment by P-card or direct University billing; a traveler who pays may also be reimbursed.",
+    "source": "Travel Expense Policy, PDF p. 16."
+  },
+  {
+    "id": 67,
+    "topic": "Travel expenses",
+    "question": "How should airfare be documented when a traveler adds personal days to a business trip?",
+    "gold_answer": "Compare the reimbursed fare with the fare for the dates required for business travel and provide a quote from the University's travel company or the carrier for those business dates.",
+    "source": "Travel Expense Policy, PDF p. 18."
+  },
+  {
+    "id": 68,
+    "topic": "Travel expenses",
+    "question": "When can individual meal expenses be reimbursed during travel?",
+    "gold_answer": "The policy covers reasonable and necessary breakfast, lunch, or dinner eaten by an individual while away from the University on approved business travel.",
+    "source": "Travel Expense Policy, PDF p. 19."
+  },
+  {
+    "id": 69,
+    "topic": "Travel expenses",
+    "question": "When may a meal with only Columbia employees or students be treated as a business meal?",
+    "gold_answer": "When it includes focused business discussion and the meeting frequency and related expense are reasonable and appropriate.",
+    "source": "Travel Expense Policy, PDF p. 19."
+  },
+  {
+    "id": 70,
+    "topic": "Travel expenses",
+    "question": "What extra approval is needed for a business meal attended by an employee's spouse or dependent?",
+    "gold_answer": "The payee must provide justification and the Financial Approver must acknowledge it.",
+    "source": "Travel Expense Policy, PDF p. 20."
+  },
+  {
+    "id": 71,
+    "topic": "Travel expenses",
+    "question": "What tax consequence may apply when a department pays for a spouse's personal travel?",
+    "gold_answer": "If there is no legitimate business purpose, the department should advise that the reimbursement is taxable income to the employee and will be reported to the IRS.",
+    "source": "Travel Expense Policy, PDF p. 21."
+  },
+  {
+    "id": 72,
+    "topic": "Travel expenses",
+    "question": "Who is covered by Columbia's Business Travel Accident Insurance according to the policy?",
+    "gold_answer": "Active full-time employees and graduate and teaching assistants are covered; collective-bargaining-unit employees are excluded unless their agreement specifically provides coverage.",
+    "source": "Travel Expense Policy, PDF p. 22."
+  },
+  {
+    "id": 73,
+    "topic": "Travel expenses",
+    "question": "What must an expense report show to support a business expense?",
+    "gold_answer": "It must document the purchase, its business purpose, and proof of payment.",
+    "source": "Travel Expense Policy, PDF p. 25."
+  },
+  {
+    "id": 74,
+    "topic": "Travel expenses",
+    "question": "What should an employee do with an outstanding travel advance when leaving Columbia?",
+    "gold_answer": "Promptly reconcile all outstanding advances upon termination of employment.",
+    "source": "Travel Expense Policy, PDF p. 24."
+  },
+  {
+    "id": 75,
+    "topic": "Travel expenses",
+    "question": "What may happen when travel expenses are submitted after the policy's one-year deadline?",
+    "gold_answer": "The policy says submissions later than 365 days after the trip end date will not be reimbursed.",
+    "source": "Travel Expense Policy, PDF p. 6."
+  },
+  {
+    "id": 76,
+    "topic": "Business expenses and cards",
+    "question": "What is required to establish a valid business purpose for reimbursement?",
+    "gold_answer": "Each expense needs a specific business purpose that is necessary and reasonable for University business and clear enough for a third-party reviewer to understand.",
+    "source": "Business Expense Policy, PDF p. 6."
+  },
+  {
+    "id": 77,
+    "topic": "Business expenses and cards",
+    "question": "Would \"Dinner\" alone normally explain a meal expense's business purpose?",
+    "gold_answer": "No. The policy gives a generic description such as \"Dinner\" as insufficient and expects a specific explanation of the University business purpose.",
+    "source": "Business Expense Policy, PDF p. 6."
+  },
+  {
+    "id": 78,
+    "topic": "Business expenses and cards",
+    "question": "Which date should be entered for a business expense in Concur?",
+    "gold_answer": "Use the transaction date on the receipt or the payment date shown on debit- or credit-card proof of payment.",
+    "source": "Business Expense Policy, PDF p. 7."
+  },
+  {
+    "id": 79,
+    "topic": "Business expenses and cards",
+    "question": "What does it mean to segregate an unallowable expense?",
+    "gold_answer": "Identify and separate the cost so an unallowable amount is not charged to a Federal award or other account that cannot bear it.",
+    "source": "Business Expense Policy, PDF p. 7."
+  },
+  {
+    "id": 80,
+    "topic": "Business expenses and cards",
+    "question": "What are the meal thresholds that trigger Senior Business Officer approval?",
+    "gold_answer": "The listed pre-tip, pre-tax thresholds are $25 for breakfast, $35 for lunch, and $75 for dinner; the amount above the threshold must be segregated.",
+    "source": "Business Expense Policy, PDF p. 8."
+  },
+  {
+    "id": 81,
+    "topic": "Business expenses and cards",
+    "question": "Are tips above 20 percent reimbursable under the Business Expense Policy?",
+    "gold_answer": "No. Tips or gratuities above 20 percent will not be reimbursed.",
+    "source": "Business Expense Policy, PDF p. 8."
+  },
+  {
+    "id": 82,
+    "topic": "Business expenses and cards",
+    "question": "Who processes approved expense reports and issues reimbursement payments?",
+    "gold_answer": "Accounts Payable processes approved Expense Reports and prepares and issues payment to the payee.",
+    "source": "Business Expense Policy, PDF p. 5."
+  },
+  {
+    "id": 83,
+    "topic": "Business expenses and cards",
+    "question": "What is the submission period for business expenses measured from the transaction date?",
+    "gold_answer": "Submit the Expense Report within one year (365 days) of the transaction date for business expenses.",
+    "source": "Business Expense Policy, PDF p. 5."
+  },
+  {
+    "id": 84,
+    "topic": "Business expenses and cards",
+    "question": "What extra support is required if a business expense is submitted more than 120 days after the transaction?",
+    "gold_answer": "Payee justification and Financial Approver approval are required for a submission more than 120 days after the transaction date.",
+    "source": "Business Expense Policy, PDF p. 5."
+  },
+  {
+    "id": 85,
+    "topic": "Business expenses and cards",
+    "question": "What should a preparer delegate verify before submitting another person's expense report?",
+    "gold_answer": "The delegate should understand each expense and its business purpose, confirm complete documentation and accurate accounting, ensure required report information is complete, and allocate or segregate expenses correctly.",
+    "source": "Business Expense Policy, PDF p. 4."
+  },
+  {
+    "id": 86,
+    "topic": "Business expenses and cards",
+    "question": "When can an event expense involving people outside Columbia qualify for reimbursement?",
+    "gold_answer": "The external parties must have an actual or potential business relationship with the University, and the event must meet the policy's business-purpose conditions.",
+    "source": "Business Expense Policy, PDF p. 3."
+  },
+  {
+    "id": 87,
+    "topic": "Business expenses and cards",
+    "question": "Who may make a purchase using a Columbia P-card?",
+    "gold_answer": "Only the person to whom the P-card was issued may make purchases with it.",
+    "source": "Purchasing Card Policy, PDF p. 3."
+  },
+  {
+    "id": 88,
+    "topic": "Business expenses and cards",
+    "question": "What should a cardholder do immediately if a P-card is lost or stolen?",
+    "gold_answer": "Notify the card issuer, the Departmental P-card Administrator, and the P-card team or Finance Service Center immediately.",
+    "source": "Purchasing Card Policy, PDF p. 8."
+  },
+  {
+    "id": 89,
+    "topic": "Business expenses and cards",
+    "question": "What is the maximum single-transaction limit for a P-card?",
+    "gold_answer": "The limit is set at $2,500 or less and cannot exceed $2,500.",
+    "source": "Purchasing Card Policy, PDF p. 11."
+  },
+  {
+    "id": 90,
+    "topic": "Business expenses and cards",
+    "question": "Can a cardholder split a purchase to stay under the P-card transaction limit?",
+    "gold_answer": "No. Splitting a purchase to evade the single-transaction limit is explicitly prohibited and may lead to immediate card cancellation.",
+    "source": "Purchasing Card Policy, PDF p. 11."
+  },
+  {
+    "id": 91,
+    "topic": "Business expenses and cards",
+    "question": "When should P-card transactions be reviewed and signed off?",
+    "gold_answer": "Review and sign off as quickly as possible after purchase; weekly review is strongly recommended, and transactions must be signed off by the hard-close deadline.",
+    "source": "Purchasing Card Policy, PDF p. 12."
+  },
+  {
+    "id": 92,
+    "topic": "Business expenses and cards",
+    "question": "What information should an itemized P-card receipt include?",
+    "gold_answer": "It generally includes the purchase date, vendor, item description, quantity, unit price, and total charge. The cardholder should add missing details when needed.",
+    "source": "Purchasing Card Policy, PDF p. 13."
+  },
+  {
+    "id": 93,
+    "topic": "Business expenses and cards",
+    "question": "How long does a cardholder have to initiate a transaction dispute with the card issuer?",
+    "gold_answer": "After making a good-faith attempt to resolve the issue with the vendor, initiate the issuer dispute no later than 60 days after the transaction date.",
+    "source": "Purchasing Card Policy, PDF p. 13."
+  },
+  {
+    "id": 94,
+    "topic": "Business expenses and cards",
+    "question": "May a P-card be used to pay for airfare, lodging, or a taxi?",
+    "gold_answer": "No. Travel purchases, including airline, rental car, lodging, taxi, car service, and shuttle charges, are among the prohibited P-card uses.",
+    "source": "Purchasing Card Policy, PDF p. 14."
+  },
+  {
+    "id": 95,
+    "topic": "Business expenses and cards",
+    "question": "Which system must be used to substantiate T&E Corporate Card activity?",
+    "gold_answer": "Concur Travel and Expense is the authorized system for substantiation, expense-report submission, receipt retention, and approval.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 2."
+  },
+  {
+    "id": 96,
+    "topic": "Business expenses and cards",
+    "question": "What is the default monthly limit for a T&E Corporate Card?",
+    "gold_answer": "The default limit is $5,000 per month.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 3."
+  },
+  {
+    "id": 97,
+    "topic": "Business expenses and cards",
+    "question": "How may an employee request a different monthly T&E Corporate Card limit?",
+    "gold_answer": "A higher or lower limit can be requested in $2,500 increments, subject to Departmental P-card Administrator approval; requests above $15,000 require justification and T&E Corporate Card team approval.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 3."
+  },
+  {
+    "id": 98,
+    "topic": "Business expenses and cards",
+    "question": "By when should T&E card transactions be reconciled?",
+    "gold_answer": "As quickly as possible; weekly review is strongly recommended, and sign-off is due by the monthly hard-close date, subject to the policy's trip-cutoff exception.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 5."
+  },
+  {
+    "id": 99,
+    "topic": "Business expenses and cards",
+    "question": "What happens if a T&E card transaction remains unreconciled for 90 days?",
+    "gold_answer": "The system will block submission of additional expense reports until the outstanding transactions are reconciled.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 5."
+  },
+  {
+    "id": 100,
+    "topic": "Business expenses and cards",
+    "question": "What happens if a T&E card transaction remains unreconciled for 120 days?",
+    "gold_answer": "The outstanding amount is reported to Payroll and treated as taxable income to the employee.",
+    "source": "Travel and Expense Corporate Card Policy, PDF p. 5."
+  },
+  {
+    "id": 101,
+    "topic": "Purchasing and procurement",
+    "question": "How many quotes are required for a non-sponsored purchase up to $15,000?",
+    "gold_answer": "One quote or proposal is required for goods and services purchases up to $15,000.",
+    "source": "Competitive Procurement, PDF p. 2."
+  },
+  {
+    "id": 102,
+    "topic": "Purchasing and procurement",
+    "question": "How many written quotes are required for a non-sponsored purchase from $15,001 to $350,000?",
+    "gold_answer": "At least two written quotes or proposals are required.",
+    "source": "Competitive Procurement, PDF p. 2."
+  },
+  {
+    "id": 103,
+    "topic": "Purchasing and procurement",
+    "question": "How many written quotes are required for a non-sponsored purchase above $350,001?",
+    "gold_answer": "At least three written quotes or proposals are required under the policy's threshold table.",
+    "source": "Competitive Procurement, PDF p. 2."
+  },
+  {
+    "id": 104,
+    "topic": "Purchasing and procurement",
+    "question": "What quote requirement applies to sponsored purchases under $15,000?",
+    "gold_answer": "One quote or proposal is required for goods and services purchases under $15,000.",
+    "source": "Competitive Procurement, PDF p. 6."
+  },
+  {
+    "id": 105,
+    "topic": "Purchasing and procurement",
+    "question": "What sourcing method applies to sponsored goods or services between $15,001 and $350,000?",
+    "gold_answer": "Obtain multiple written quotes from an adequate number of qualified sources through the Request for Quotation process.",
+    "source": "Competitive Procurement, PDF p. 6."
+  },
+  {
+    "id": 106,
+    "topic": "Purchasing and procurement",
+    "question": "What sourcing method applies to a contract of $350,001 or more?",
+    "gold_answer": "A formal proposal process is required. Construction-related work uses the sealed-bid process; non-construction goods and services use the competitive-proposal process described in the policy.",
+    "source": "Competitive Procurement, PDF p. 8."
+  },
+  {
+    "id": 107,
+    "topic": "Purchasing and procurement",
+    "question": "What does the policy require if a supplier other than the lowest-priced supplier is chosen?",
+    "gold_answer": "Document the specific rationale for selecting another supplier; the relevant bid or price-justification documentation must accompany the requisition.",
+    "source": "Competitive Procurement, PDF p. 8."
+  },
+  {
+    "id": 108,
+    "topic": "Purchasing and procurement",
+    "question": "When is a sole-source justification needed?",
+    "gold_answer": "When the department seeks an exemption from competitive sourcing where competition would normally be required, it must provide ample justification for the exception.",
+    "source": "Competitive Procurement, PDF p. 5."
+  },
+  {
+    "id": 109,
+    "topic": "Purchasing and procurement",
+    "question": "Can a University-wide Purchasing Agreement replace bids for any item from that supplier?",
+    "gold_answer": "Only when the agreement covers the requested goods or services and has negotiated pricing for them; otherwise the purchase must meet the policy's competitive thresholds.",
+    "source": "Competitive Procurement, PDF p. 5."
+  },
+  {
+    "id": 110,
+    "topic": "Purchasing and procurement",
+    "question": "Can a Departmental Select Agreement waive sponsored-project bid thresholds?",
+    "gold_answer": "No. The policy says DSAs do not qualify for an exemption from sponsored-project competitive-bid thresholds.",
+    "source": "Competitive Procurement, PDF p. 7."
+  },
+  {
+    "id": 111,
+    "topic": "Purchasing and procurement",
+    "question": "What is a Bid Summary Sheet used for?",
+    "gold_answer": "It records the supplier-selection process and is mandatory supporting documentation attached to the requisition after a proposal is selected, as applicable under the policy.",
+    "source": "Competitive Procurement, PDF p. 4."
+  },
+  {
+    "id": 112,
+    "topic": "Purchasing and procurement",
+    "question": "When is a Request for Proposal useful?",
+    "gold_answer": "When the goods or services lack standardized specifications or have complex requirements and multiple solutions and suppliers are available, so the University needs to assess best value.",
+    "source": "Competitive Procurement, PDF p. 4."
+  },
+  {
+    "id": 113,
+    "topic": "Purchasing and procurement",
+    "question": "What extra procurement responsibility applies to a sponsored purchase?",
+    "gold_answer": "Provide the supporting documentation to Procurement in the prescribed manner and follow the applicable sponsor and Uniform Guidance requirements.",
+    "source": "Competitive Procurement, PDF p. 6."
+  },
+  {
+    "id": 114,
+    "topic": "Purchasing and procurement",
+    "question": "What price analysis is expected for a noncompetitive contract above $350,001?",
+    "gold_answer": "If possible, perform a cost or price analysis based on a breakdown of costs to determine whether the estimated cost is reasonable before award.",
+    "source": "Competitive Procurement, PDF p. 10."
+  },
+  {
+    "id": 115,
+    "topic": "Purchasing and procurement",
+    "question": "What is a Purchase Request in CU Marketplace?",
+    "gold_answer": "It initiates a formal Purchase Requisition in the University's procurement system to buy goods or services.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 2."
+  },
+  {
+    "id": 116,
+    "topic": "Purchasing and procurement",
+    "question": "When does a department generally need a Purchase Requisition?",
+    "gold_answer": "For a purchase that cannot be made with a P-card, when the supplier requires a formal PO, for restricted commodities, for services, or for lease-finance requests.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 2."
+  },
+  {
+    "id": 117,
+    "topic": "Purchasing and procurement",
+    "question": "What is the sequence from Purchase Request to Purchase Order?",
+    "gold_answer": "The request becomes a requisition; after the required approvals, a Purchase Order is dispatched to the supplier.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 2."
+  },
+  {
+    "id": 118,
+    "topic": "Purchasing and procurement",
+    "question": "Do catalog POs for University-wide Purchasing Agreement items always need Purchasing approval?",
+    "gold_answer": "No. The policy says catalog POs for selected UWPA suppliers do not require Purchasing approval for order values below $50,000.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 3."
+  },
+  {
+    "id": 119,
+    "topic": "Purchasing and procurement",
+    "question": "Which categories of orders does Central Purchasing review according to the policy?",
+    "gold_answer": "The listed review categories include catalog orders over $50,000, sponsored transactions over $15,000, non-catalog goods orders over $500, and non-catalog services orders.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 5."
+  },
+  {
+    "id": 120,
+    "topic": "Purchasing and procurement",
+    "question": "When is receiving required for a catalog order in CU Marketplace?",
+    "gold_answer": "Receiving is required when a catalog order line item is $5,000 or more, across category codes.",
+    "source": "Purchase Requests and Purchase Orders, PDF p. 4."
+  },
+  {
+    "id": 121,
+    "topic": "Purchasing and procurement",
+    "question": "Where must restricted commodities requiring prior approval be processed?",
+    "gold_answer": "They must be processed through the Central Purchasing Office and are not covered by the Small Purchases policy.",
+    "source": "Transactions Requiring Prior Approvals, PDF p. 2."
+  },
+  {
+    "id": 122,
+    "topic": "Purchasing and procurement",
+    "question": "What is Columbia's capital-equipment threshold in the prior-approval policy?",
+    "gold_answer": "Capital equipment is equipment or systems valued at $5,000 or more with a useful life of two years.",
+    "source": "Transactions Requiring Prior Approvals, PDF p. 3."
+  },
+  {
+    "id": 123,
+    "topic": "Purchasing and procurement",
+    "question": "What approval is needed before a purchase order for capital equipment is issued?",
+    "gold_answer": "Approval from the Office of Capital Assets Accounting in ARC is required before the Purchase Order is issued.",
+    "source": "Transactions Requiring Prior Approvals, PDF p. 3."
+  },
+  {
+    "id": 124,
+    "topic": "Purchasing and procurement",
+    "question": "What additional approval is needed for animal housing and related supplies?",
+    "gold_answer": "Prior approval in ARC from the Institutional Animal Care and Use Committee is required for animal housing, related equipment, and supplies.",
+    "source": "Transactions Requiring Prior Approvals, PDF p. 2."
+  },
+  {
+    "id": 125,
+    "topic": "Purchasing and procurement",
+    "question": "What should be done before buying equipment that contains an ionizing-radiation source?",
+    "gold_answer": "Obtain Environmental Health and Safety approval in ARC.",
+    "source": "Transactions Requiring Prior Approvals, PDF p. 3."
+  },
+  {
+    "id": 126,
+    "topic": "Information security",
+    "question": "Which endpoints must be registered with the responsible IT custodian or inventory owner?",
+    "gold_answer": "The policy requires registration for endpoints that process, transmit, or store PHI and for endpoints handling University data when the relevant data owner or security authority requires registration.",
+    "source": "Registration and Protection of Endpoints Policy, PDF p. 2."
+  },
+  {
+    "id": 127,
+    "topic": "Information security",
+    "question": "What inactivity lock setting is required for mobile devices under the endpoint policy?",
+    "gold_answer": "Configure the mobile endpoint to lock after five minutes of inactivity.",
+    "source": "Registration and Protection of Endpoints Policy, PDF p. 3."
+  },
+  {
+    "id": 128,
+    "topic": "Information security",
+    "question": "What encryption and remote-wipe protections are required for a mobile device holding University data?",
+    "gold_answer": "It must have a mechanism to encrypt all University data stored on it and a secure remote-wipe mechanism if it is lost or stolen.",
+    "source": "Registration and Protection of Endpoints Policy, PDF p. 3."
