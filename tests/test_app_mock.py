@@ -6,9 +6,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from streamlit.testing.v1 import AppTest
 import mock_agent
+import streamlit as st
 
 
 def fresh():
+    st.cache_resource.clear()          # limiters are shared per process: start each test clean
     at = AppTest.from_file(str(ROOT / "app.py"), default_timeout=30).run()
     assert not at.exception
     return at
@@ -134,3 +136,30 @@ def test_no_related_questions_for_clarification_or_fallback():
     at = ask(fresh(), "policy?")
     assert not any(q in [b.label for b in at.button] for q in mock_agent.SAMPLE_FOLLOWUPS)
     assert "Related questions" not in texts(at)
+
+
+def test_chat_rate_limit_blocks_third_question(monkeypatch):
+    monkeypatch.setenv("CHAT_RPM", "2")
+    at = fresh()
+    ask(at, "Can an employee approve their own travel expense report?")
+    ask(at, "What expenses are reimbursable for travel?")
+    ask(at, "How do I submit a Concur expense report?")
+    assert any("Too many requests" in w.value for w in at.warning)
+    assert len([m for m in at.chat_message if m.name == "user"]) == 2   # third question not processed
+    at2 = fresh()                                                         # limiter reset -> allowed again
+    ask(at2, "Can an employee approve their own travel expense report?")
+    assert not any("Too many requests" in w.value for w in at2.warning)
+
+
+def test_support_ticket_rate_limit(monkeypatch):
+    monkeypatch.setenv("TICKET_RPM", "1")
+    at = fresh()
+    for n in range(2):
+        ask(at, ["Can an employee approve their own travel expense report?",
+                 "What expenses are reimbursable for travel?"][n])
+        [b for b in at.button if "No, I still need help" in b.label][0].click().run()
+        at.checkbox[0].check()
+        [b for b in at.button if b.label == "Submit request"][0].click().run()
+        if n == 0:
+            assert any("SR-" in s.value for s in at.success)           # first ticket goes through
+    assert any("Too many submissions" in e.value for e in at.error)    # second within the minute is blocked
