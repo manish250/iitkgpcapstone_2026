@@ -1,7 +1,7 @@
 """University Policy Copilot - Streamlit UI.
 
 Run:  streamlit run app.py
-Mode: POLICY_AGENT_MODE=mock (default, sample data) | live (real agent from policy_agent.py)
+Mode: POLICY_AGENT_MODE=mock (default, sample data) | live (agent team code in policy_agent.py, via ui_adapter.py)
 """
 import os
 import re
@@ -9,6 +9,8 @@ import uuid
 from types import SimpleNamespace
 
 import streamlit as st
+
+from limits import SlidingWindowLimiter, TurnGate
 
 try:  # optional: load a local .env
     from dotenv import load_dotenv
@@ -19,11 +21,17 @@ except ImportError:
 APP_TITLE = os.environ.get("APP_TITLE", "University Policy Copilot")
 MODE = os.environ.get("POLICY_AGENT_MODE", "mock").strip().lower()
 MAX_QUESTION_CHARS = 1000
+CHAT_RPM = int(os.environ.get("CHAT_RPM", "20"))                    # questions per minute per client
+TICKET_RPM = int(os.environ.get("TICKET_RPM", "5"))                 # support submissions per minute
+MAX_CONCURRENT_TURNS = int(os.environ.get("MAX_CONCURRENT_TURNS", "4"))
+TRUST_PROXY = os.environ.get("TRUST_PROXY", "false").strip().lower() == "true"  # read X-Forwarded-For
 
 st.set_page_config(page_title=APP_TITLE, page_icon="📘", layout="wide")
 
 STATUS = {  # status -> (badge colour, label)
     "accepted": ("green", "Verified against policy"),
+    "revised": ("blue", "Revised to match cited policy"),
+    "not_found": ("gray", "Not found in the policies"),
     "clarification_needed": ("blue", "Needs more information"),
     "revision_unverified": ("orange", "Could not verify"),
     "safe_fallback": ("orange", "Could not verify"),
@@ -41,22 +49,46 @@ SUGGESTED = [
 @st.cache_resource(show_spinner="Loading policy index (first start embeds the corpus, this can take a few minutes)...")
 def load_backend():
     if MODE == "live":
-        import policy_agent as pa
-        pa.init_runtime()
-        configured, msg = pa.M4SupportEscalationAgent.configuration_status()
-        support = pa.M4SupportEscalationAgent if configured else None
+        import ui_adapter as ua
+        ua.init_runtime()                      # runs the agent team's notebook code once
+        configured, msg = ua.support_agent().configuration_status()
+        support = ua.support_agent() if configured else None
         if support is None:
             import mock_agent
             support = mock_agent.DemoSupport
         return SimpleNamespace(
-            run_turn=pa.run_turn, support=support, live=True,
-            support_demo=not configured, support_msg=msg, stats=pa.corpus_stats(),
+            run_turn=ua.run_turn, support=support, live=True,
+            support_demo=not configured, support_msg=msg, stats=ua.corpus_stats(),
         )
     import mock_agent
     return SimpleNamespace(
         run_turn=mock_agent.run_turn, support=mock_agent.DemoSupport, live=False,
         support_demo=True, support_msg="Demo mode: nothing is sent anywhere.", stats={},
     )
+
+
+@st.cache_resource
+def get_limits():
+    """One set of limiters shared by every browser session in this server process."""
+    return SimpleNamespace(chat=SlidingWindowLimiter(CHAT_RPM), ticket=SlidingWindowLimiter(TICKET_RPM),
+                           gate=TurnGate(MAX_CONCURRENT_TURNS))
+
+
+def client_key():
+    """Who is asking: the client IP when known (X-Forwarded-For only if TRUST_PROXY=true),
+    otherwise this browser session."""
+    try:
+        if TRUST_PROXY:
+            xff = st.context.headers.get("X-Forwarded-For", "")
+            xff = xff.split(",")[0].strip() if isinstance(xff, str) else ""
+            if xff:
+                return f"ip:{xff}"
+        ip = st.context.ip_address
+        if isinstance(ip, str) and ip:             # None/odd values fall back to the session
+            return f"ip:{ip}"
+    except Exception:
+        pass
+    return f"sess:{st.session_state.setdefault('session_id', uuid.uuid4().hex)}"
 
 
 # ------------------------------------------------------------------ state ----
@@ -73,13 +105,16 @@ ss = st.session_state
 
 
 # --------------------------------------------------------------- rendering ----
-def render_answer(text, evidence):
-    """Citations become badges: green when they match returned evidence (title + page), else orange."""
+def render_answer(text, evidence, not_found=False):
+    """Citations become badges: green when they match returned evidence (title + page), else orange.
+    In a "not found" answer a citation only marks a page that was checked, so it is grey."""
     allowed = {(str(e["source"]).casefold(), str(e["page"])) for e in evidence}
 
     def sub(m):
         title, page = m.group(1).strip(), m.group(2)
         label = f"{title}, p. {page}".replace("[", "(").replace("]", ")")
+        if not_found:
+            return f":gray-badge[checked: {label}]"
         if (title.casefold(), page) in allowed:
             return f":green-badge[{label}]"
         return f":orange-badge[{label} - unverified]"
@@ -106,17 +141,22 @@ def render_message(msg, backend):
             return
         colour, label = STATUS.get(msg["status"], STATUS["safe_fallback"])
         st.badge(label, color=colour)
-        st.markdown(render_answer(msg["content"], msg.get("evidence", [])))
+        not_found = msg.get("status") == "not_found"
+        st.markdown(render_answer(msg["content"], msg.get("evidence", []), not_found))
         if msg.get("telemetry"):
             render_telemetry(msg["telemetry"])
         ev = msg.get("evidence", [])
         if ev:
             cited = cited_pairs(msg["content"])
-            with st.expander(f"Sources ({len(ev)})"):
+            title = f"Passages searched ({len(ev)})" if not_found else f"Sources ({len(ev)})"
+            with st.expander(title):
+                if not_found:
+                    st.caption("The agent searched these passages and did not find an answer in them.")
                 if not backend.live:
                     st.warning("SAMPLE FIXTURE - not real policy text.")
                 for e in ev:
-                    mark = " · ✔ cited" if (str(e["source"]).casefold(), str(e["page"])) in cited else ""
+                    mark = (" · ✔ cited" if not not_found and
+                            (str(e["source"]).casefold(), str(e["page"])) in cited else "")
                     st.markdown(f"**{e['evidence_id']} · {e['source']} · p. {e['page']}**{mark}  \n"
                                 f"relevance score {e['score']:.3f}")
                     st.text(e["text"])  # untrusted text: rendered as plain text, never as markdown/HTML
@@ -141,6 +181,10 @@ def open_support_form():
 def attempt_submit(backend, payload):
     """One submission attempt. A reference is minted once and reused on retry (idempotent)."""
     sup = ss.support
+    ok, wait = get_limits().ticket.check(client_key())
+    if not ok:                                    # nothing was attempted, so state is unchanged
+        sup["error"] = f"Too many submissions. Please try again in {int(wait)} seconds."
+        st.rerun()
     if not sup.get("ticket_number"):
         sup["ticket_number"] = backend.support.new_ticket_number()
     sup["payload"] = payload
@@ -259,7 +303,8 @@ with st.sidebar:
                 "- Drafts a support request that you review and consent to")
     st.markdown("**What it will not do**\n\n- Give legal, medical or personal advice\n"
                 "- Answer without evidence - it declines instead\n- Submit anything without your consent")
-    st.caption("Each question is limited to 6 tool calls, 4 model calls and 1,500 generated tokens.")
+    st.caption("Each question is limited to 6 tool calls, 4 model calls and 1,500 generated tokens. "
+               f"Rate limit: {CHAT_RPM} questions/minute.")
     st.caption(f"Support: {backend.support_msg}")
     if st.button("➕ New chat", use_container_width=True):
         new_chat()
@@ -306,6 +351,11 @@ prompt = st.chat_input(
 
 if prompt:
     prompt = prompt.strip()
+    limits = get_limits()
+    allowed, wait = limits.chat.check(client_key())
+    if not allowed:
+        st.warning(f"Too many requests. Please wait {int(wait)} seconds and ask again.")
+        st.stop()
     if ss.support["phase"] in ("form", "done"):   # a new question closes the support panel
         ss.support = {"phase": "idle"}
     ss.feedback_done = False
@@ -314,6 +364,10 @@ if prompt:
         st.text(prompt)
     with st.chat_message("assistant"):
         with st.spinner("Searching policies and checking the answer…"):
+            if not limits.gate.acquire(timeout=30):
+                ss.messages.pop()                 # not processed: drop the question again
+                st.warning("The assistant is busy right now. Please try again in a moment.")
+                st.stop()
             try:
                 res = backend.run_turn(prompt, ss.thread_id)
                 ss.messages.append({
@@ -328,4 +382,6 @@ if prompt:
                     "role": "assistant", "status": "error", "evidence": [], "telemetry": None,
                     "content": "Sorry, the assistant is unavailable right now. Please try again.",
                 })
+            finally:
+                limits.gate.release()
     st.rerun()

@@ -1,72 +1,68 @@
 # University Policy Copilot - Streamlit UI
 
-A Streamlit front end for the agent in the milestone-4 notebook (planner -> retrieval -> draft ->
-critic -> finalize, LangGraph + SQLite memory). It follows the behaviour in
-`Policy_Copilot_UI_Technical_Summary.pdf`.
+The UI team's Streamlit front end for the agent team's notebook
+(`University_Policy_Copilot_TrackB.ipynb`: planner -> retrieval -> draft -> critic -> revise -> finalize,
+LangGraph + SQLite memory). It follows `Policy_Copilot_UI_Technical_Summary.pdf`.
 
-| File | Purpose |
-|---|---|
-| `app.py` | Streamlit UI: chat, status badges, citation chips, Sources, telemetry, consent-gated support flow |
-| `policy_agent.py` | The notebook's agent code, extracted and cleaned (env config, fail-closed TLS, no prompts/demos) |
-| `mock_agent.py` | Rule-based demo backend + demo support service (sample data only) |
-| `tests/` | 3 graph tests (fake LLM) + 9 UI tests |
+## Who owns what
+| File | Owner | Purpose |
+|---|---|---|
+| `University_Policy_Copilot_TrackB.ipynb` | Agent team | The notebook, unchanged |
+| `policy_agent.py` | Agent team | **Verbatim** copy of the notebook's agent cells (do not edit) |
+| `ui_adapter.py` | UI team | Runs `policy_agent.py`, answers its prompts from env vars, returns answer + sources for the UI, related questions |
+| `app.py` | UI team | Chat, status badges, citation chips, Sources, telemetry, related questions, feedback, consent-gated support, rate limits |
+| `limits.py`, `mock_agent.py` | UI team | Rate limiter; rule-based demo backend (sample data only) |
+| `tests/` | UI team | Verbatim check, agent code run against fake servers, UI tests |
 
-## 0. Google Colab (recommended)
-Upload `policy-copilot-colab.zip` to Colab, open `Policy_Copilot_Colab_Launcher.ipynb`, run the cells top to bottom
-(upload 2 certificates, type 2 keys, open the printed link). Data is already in `data/`.
+If the agent misbehaves, report it to the agent team; the UI does not patch agent code.
 
-## 1. Try it now (demo mode, no keys)
+### What `policy_agent.py` contains
+25 notebook cells copied character for character, in notebook order (each block is labelled with its cell
+number): setup and telemetry, LLM client, corpus, cleaning, chunking, embeddings + hybrid search, reranker,
+M4 state/tools/planner/executor/draft/critic/finalize/revise, graph + checkpointer, `run_m4_persistent_turn`,
+support escalation, final graph compile. From two evaluation cells only the helper definitions
+`_policy_members_from_doc` and `_policy_title_from_doc` are copied (the rest of those cells runs evaluations).
+Not copied: pip installs, evaluations, chunking experiments, widget UIs, mock-support demos, Track B reports.
+
+Starting the app runs that code once, exactly as the notebook would, including its built-in checks: an LLM
+connection test, a planner check, and one demo turn ("What is concur?").
+
+### What `ui_adapter.py` adds (UI side only)
+- Answers the notebook's `input()` certificate prompt with `LLM_CA_CERT`; refuses `getpass()` with a clear
+  error if a key is missing (a server has no keyboard).
+- Calls the notebook's `run_m4_persistent_turn()` and reads that turn's evidence (top 5 sources) from the
+  graph checkpoint.
+- Shows a critic-revised answer as **"Revised to match cited policy"** with its sources. (The notebook's
+  finalize publishes revised answers, while its status function still labels them `revision_unverified`.)
+- Shows an answer whose first sentence says the policies do not cover the question ("I could not find...")
+  as **"Not found in the policies"**: its citations turn grey ("checked: ..."), the panel is titled
+  "Passages searched", and no related questions are offered.
+- Related questions: one small extra model call after an answer, outside the agent graph
+  (`FOLLOWUP_SUGGESTIONS=off` to disable).
+
+## Google Colab
+Upload the zip and `Policy_Copilot_Colab_Launcher.ipynb`, run the cells top to bottom (certificates, two keys,
+open the link; use the Colab-proxy cell if the Cloudflare link fails).
+
+## Demo mode (no keys)
 ```bash
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install streamlit python-dotenv
-streamlit run app.py
+pip install streamlit python-dotenv && streamlit run app.py
 ```
-Demo rules: fewer than 3 words -> clarification; a question with *expense, travel, approve, reimburs, concur*
--> verified sample answer; anything else -> safe fallback. Sample data is labelled in the UI.
 
-## 2. Run the real agent
+## Live mode locally
 ```bash
 pip install -r requirements.txt
-cp .env.example .env        # fill in keys; put the CA .crt files in `certs/` (the policy ZIP is already in `data/`)
-# set POLICY_AGENT_MODE=live in .env
+cp .env.example .env     # set POLICY_AGENT_MODE=live and the keys; put data/vm02-ca.crt and the LLM cert in place
 streamlit run app.py
 ```
-First start embeds roughly 3.4k chunks through the embedding API (a few minutes). The index is then cached
-for the life of the server process (`st.cache_resource`). Conversation memory persists per `thread_id` in
-`M4_CHECKPOINT_DB_PATH`.
+First start embeds about 3.4k chunks (the notebook code has no embedding cache), then the index stays in
+memory for the life of the server process.
 
-Support requests use the notebook's `M4SupportEscalationAgent` when `UNIVERSITY_SUPPORT_API_URL` and
-`_TOKEN` are set; otherwise they run as clearly marked **DEMO ONLY** (nothing is sent).
+## Rate limiting (UI)
+Per client: `CHAT_RPM` questions/minute, `TICKET_RPM` support submissions/minute; `MAX_CONCURRENT_TURNS`
+caps simultaneous turns.
 
-## 3. Tests
+## Tests
 ```bash
 pip install -r requirements-dev.txt && python -m pytest -q tests
 ```
-
-## Related questions
-After each **verified** answer the UI offers three related questions as buttons (click one to ask it).
-In live mode they come from one small extra model call (max 150 tokens) grounded in the policies just
-retrieved; it sits outside the bounded graph, so it is not counted in the per-query call/token limits.
-Set `FOLLOWUP_SUGGESTIONS=off` to disable it. Clarifications and fallbacks never show suggestions.
-
-## Retries
-- **Embedding calls** (index build and each question): up to 3 retries with exponential backoff (~1s, 2s, 4s,
-  jittered) for timeouts, connection errors and HTTP 408/425/429/5xx; `Retry-After` is honoured (max 30s).
-  Certificate errors and other 4xx (e.g. 401/403) are **never** retried. Set `EMBEDDING_MAX_RETRIES`.
-- **LLM calls:** retried by the OpenAI client (default 2). Set `LLM_MAX_RETRIES`.
-- **Inside the agent graph there are no extra retries** - the notebook's call budget stays intact; a failed
-  step degrades to a safe fallback. Related-question suggestions are not retried.
-
-## Behaviour carried over from the notebook / PDF
-- Sources are shown only for `accepted` answers; clarifications and fallbacks never look evidence-backed.
-- Citation chips: green only if title + page match returned evidence, otherwise orange "unverified".
-- Retrieved text is shown as plain text, never as markdown/HTML.
-- Support: nothing is sent without consent; only the current question/answer are shared; the SR reference is
-  created once and reused on retry (idempotent); a definitive rejection reopens the form with a fresh reference;
-  chat is blocked while a submission is unresolved.
-- Cost shows "unavailable" (no pricing configured in the notebook).
-
-## Known limits (see PDF section 5 before real users)
-Streamlit has no built-in login: put it behind SSO / a reverse proxy. Thread ownership is per browser session.
-The idempotency reference lives in session state, and the vector index and checkpoint are per-process.
-The notebook's gold evaluation set is a synthetic fallback, so answer quality has not been measured.
