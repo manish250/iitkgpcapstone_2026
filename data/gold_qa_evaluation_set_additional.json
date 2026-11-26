@@ -1,0 +1,1142 @@
+[
+ {
+  "query": "How can a current student obtain an official enrollment certification through the self-service route?",
+  "gold_answer": "A current student can access an official enrollment certification through the SSOL self-service tool.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "Which outside organization handles academic certification requests from parties outside Columbia?",
+  "gold_answer": "The National Student Clearinghouse is Columbia\u2019s official third-party provider, and external requests for current or former students are expected to be processed through it.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "What facts can an academic certification from the Registrar verify?",
+  "gold_answer": "It can verify dates of attendance, full-time or part-time status by semester, and the award of a degree.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "What must a student do to be considered for a degree or certificate?",
+  "gold_answer": "The student must file an application with their school or program.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "Does the Registrar keep school or department student files in addition to transcripts and certifications?",
+  "gold_answer": "No. The policy says the Registrar does not maintain School or Department student records beyond transcripts and certifications.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "For how long does the policy recommend keeping a complete School or Department file after a student leaves after completing their studies?",
+  "gold_answer": "It usually recommends retaining the complete file for five years after the student leaves the University.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "What retention period is recommended for the complete file of a student who leaves without graduating?",
+  "gold_answer": "The policy recommends retaining the complete file for ten years.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "Who arranges for a student's diploma to be sent, and when is it mailed?",
+  "gold_answer": "The Registrar\u2019s Office orders the diploma, and the vendor mails it after the degree conferral date.",
+  "expected_policy": "Retention of Student Education Records",
+  "expected_page": 2
+ },
+ {
+  "query": "What does the Additional Compensation policy say about senior-level employees taking on extra work?",
+  "gold_answer": "Senior-level employees in grade 15 and above are expected to provide such services without additional compensation.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "For an officer in grade 14 or below, what makes outside work potentially eligible for additional compensation?",
+  "gold_answer": "The work must fall outside the employee\u2019s primary responsibilities and be work for which a new temporary or part-time employee would otherwise need to be hired.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "Can qualifying additional services be performed during an employee\u2019s normal business hours?",
+  "gold_answer": "No. The policy requires the services to be performed outside the employee\u2019s normal business hours.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "What two conditions must an instructional course meet before an officer may receive additional compensation for teaching it?",
+  "gold_answer": "The course or program must be needed for an identified student population and must fit the unit\u2019s curriculum.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "When does the policy consider regular faculty unavailable to teach an additional-compensation course?",
+  "gold_answer": "When no regular University faculty member is both able and willing to teach it.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "Who must approve an officer\u2019s request to teach, and why might they refuse it?",
+  "gold_answer": "The officer\u2019s immediate supervisor and department head must give permission; they may refuse if teaching would interfere with the officer\u2019s full-time duties.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 1
+ },
+ {
+  "query": "Who authorizes additional-compensation teaching appointments for Officers of Administration?",
+  "gold_answer": "The Vice President for Human Resources must authorize those appointments.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 2
+ },
+ {
+  "query": "Which office gives final approval for instructional appointments at the Medical Center under this policy?",
+  "gold_answer": "The Office of Faculty Affairs gives final approval for courses offered at the Medical Center.",
+  "expected_policy": "Additional Compensation",
+  "expected_page": 2
+ },
+ {
+  "query": "What must Columbia include in its annual security report under the Campus Safety and Security notice?",
+  "gold_answer": "It must include campus security policies and statistics on certain crimes on and around Columbia\u2019s campuses.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 1
+ },
+ {
+  "query": "Where can someone obtain a printed copy of Columbia\u2019s Annual Security Report?",
+  "gold_answer": "Printed copies are available at Public Safety offices on the Morningside and Medical Center campuses.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 1
+ },
+ {
+  "query": "How can a person request the campus crime report by mail?",
+  "gold_answer": "Send the request to the Department of Public Safety, Columbia University, 111 Low Library, Mail Code 4301, 535 West 116th Street, New York, NY 10027.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 1
+ },
+ {
+  "query": "What emergency number does the notice list for Public Safety at Morningside?",
+  "gold_answer": "The Morningside emergency number listed is 212-854-5555.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 1
+ },
+ {
+  "query": "What emergency numbers does the notice list for Manhattanville and the Medical Center?",
+  "gold_answer": "The listed emergency numbers are 212-853-3333 for Manhattanville and 212-305-7979 for the Medical Center.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 2
+ },
+ {
+  "query": "Which phone number does the notice list for the Vice President of Public Safety?",
+  "gold_answer": "It lists 212-854-2054.",
+  "expected_policy": "Campus Safety and Security",
+  "expected_page": 1
+ },
+ {
+  "query": "Which two central offices share responsibility for compliance around approved academic programs and their registration or financial-aid implications?",
+  "gold_answer": "The Office of the University Registrar and Student Financial Services share that responsibility.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 1
+ },
+ {
+  "query": "Which Columbia units fall under the Central Administration of Academic Programs policy?",
+  "gold_answer": "All Columbia University schools are governed by it, especially officers and staff responsible for creating programs or changing established programs.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 2
+ },
+ {
+  "query": "Are certifications of professional achievement eligible for federal or state student aid under this policy?",
+  "gold_answer": "No. The policy states that certifications of professional achievement are not eligible for federal or state student aid.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 2
+ },
+ {
+  "query": "What does the University Financial Aid Office review when deciding whether a program qualifies for federal or state aid?",
+  "gold_answer": "It reviews NYSED registration notices and supporting documents, program details such as type, length and required credits, and the applicable federal and state eligibility criteria.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 3
+ },
+ {
+  "query": "After a new program is found eligible for federal and state aid, what does the UFAO do once it receives the Department of Education\u2019s approval?",
+  "gold_answer": "It notifies the Office of the Registrar of the program\u2019s aid eligibility and provides the supporting review documentation.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 3
+ },
+ {
+  "query": "For an established program with a substantial change, what may the UFAO do to complete its eligibility determination?",
+  "gold_answer": "It notifies the Department of Education of the updated information and may request additional information from the Office of the Provost and the applicable school.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 3
+ },
+ {
+  "query": "What reviews must be complete before the Registrar assigns a University Program Code?",
+  "gold_answer": "The program must complete the University approval process, the UFAO student-aid eligibility review, and the Registrar\u2019s final review with supporting documentation.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 4
+ },
+ {
+  "query": "What can happen if the Registrar receives incomplete or inaccurate program information?",
+  "gold_answer": "It can prevent final approval and proper SIS recording, potentially affecting student registration services and eligibility for federal or state aid.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 5
+ },
+ {
+  "query": "What does the annual spring inventory audit ask each school to confirm or report?",
+  "gold_answer": "Schools review the list of registered programs, confirm it includes all their programs, identify significant changes from the prior academic year, and report anticipated new programs or changes.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 6
+ },
+ {
+  "query": "How do the Registrar and Student Financial Services monitor compliance with student-aid requirements during the year?",
+  "gold_answer": "Their compliance offices conduct a monthly sample-based review of academic programs.",
+  "expected_policy": "Central Administration of the University's Academic Programs",
+  "expected_page": 6
+ },
+ {
+  "query": "What four sensitivity labels does Columbia use to classify University data?",
+  "gold_answer": "Sensitive Data, Confidential Data, Internal Data, and Public Data.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "If a system contains data from multiple sensitivity levels, which level determines the system\u2019s classification?",
+  "gold_answer": "The system or endpoint is classified at the highest sensitivity level present.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Who is responsible for evaluating and classifying the University data they oversee?",
+  "gold_answer": "The applicable Data Owner is responsible for evaluating and classifying that data.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What is the policy\u2019s general definition of Sensitive Data?",
+  "gold_answer": "Sensitive Data is information protected by applicable laws, regulations, or industry standards, including examples such as HIPAA, HITECH, breach-notification laws, and PCI-DSS.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What kinds of identifying information can make data personally identifiable under this policy?",
+  "gold_answer": "Information that can distinguish or trace a person\u2019s identity, or information linked or linkable to that person that is protected and could cause harm if improperly disclosed, can qualify as PII.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Who determines whether information handled by Columbia constitutes PHI?",
+  "gold_answer": "The University\u2019s Office of the General Counsel and Office of HIPAA Compliance are responsible for that determination.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "How does the policy distinguish Research Health Information from PHI?",
+  "gold_answer": "Research Health Information is individually identifiable health information created or received for research without a covered transaction, or received for research under valid HIPAA authorization or an IRB waiver.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What makes information Confidential Data under Columbia\u2019s classification policy?",
+  "gold_answer": "It is information protected as confidential by law or contract, or other information the University considers appropriate for confidential treatment.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Give two examples of Internal Data listed in the policy.",
+  "gold_answer": "Examples include internal operating procedures or manuals, internal memoranda or reports, and technical documents such as system configurations or floor plans.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "What qualifies as Public Data under the policy?",
+  "gold_answer": "Data that may or must be made available to the public without legal restrictions on access or use; examples include general-access Columbia web data and publicly available University reports.",
+  "expected_policy": "Data Classification Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Who must perform business risk and impact assessments for each key business system in their area?",
+  "gold_answer": "Each Executive Manager must perform a Business Risk Assessment and Business Impact Analysis for every Key Business System used in their area of responsibility.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What should the business assessment establish about systems and data repositories?",
+  "gold_answer": "It should identify the criticality of Key Business Systems and the repositories containing the University Data relevant and necessary to those systems.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Which core planning elements must the contingency plan define for a business unit?",
+  "gold_answer": "It must include key business processes, availability risks, recovery priorities, Recovery Time Objectives, and Recovery Point Objectives.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "How does the policy define a Recovery Time Objective?",
+  "gold_answer": "It is the duration and service level within which a business process must be restored after a disruption to avoid unacceptable continuity consequences.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "How does the policy define a Recovery Point Objective?",
+  "gold_answer": "It is the maximum tolerable period during which data might be lost from an Information Resource.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What outage scenarios must a Key Business System contingency plan address?",
+  "gold_answer": "It must cover short- and long-term outages when hardware, software, or networks become critically dysfunctional or stop working, including the impact of unavailability and how operations will continue.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What two operational plans must a contingency plan include for outage response and recovery?",
+  "gold_answer": "An Emergency Mode Operations Plan for continuing work during a temporary outage and a Recovery Plan for returning services to normal on-site operations after the disaster.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What should a data-backup plan say about restoring encrypted backup media?",
+  "gold_answer": "It must describe a method to restore encrypted backup media, including encryption-key management.",
+  "expected_policy": "Business Continuity and Disaster Recovery Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "When does Columbia treat a second paid University position as dual employment?",
+  "gold_answer": "When an employee holds two or more paid positions in more than one University department.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 1
+ },
+ {
+  "query": "Can another department hire an employee into a regular position if one of the employee\u2019s current positions already requires a full-time work week?",
+  "gold_answer": "No. The policy says an employee with a full-time position will not be hired by another department for another regular full- or part-time position.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 1
+ },
+ {
+  "query": "What is the weekly-hours ceiling for an employee in a less-than-full-time position who takes part-time duties in another department?",
+  "gold_answer": "The regularly scheduled work week must not exceed 35 hours.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 2
+ },
+ {
+  "query": "Whose authorization is required before an employee\u2019s additional part-time duties are scheduled?",
+  "gold_answer": "The unit that initially hired the employee must authorize the additional work.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 2
+ },
+ {
+  "query": "If the two departments pay different hourly rates, which rate applies under the dual-employment policy?",
+  "gold_answer": "Both departments pay the higher of the hourly rates.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 2
+ },
+ {
+  "query": "Which department handles payroll forms for an employee with dual employment?",
+  "gold_answer": "The department that first hired the employee is responsible for the payroll forms for administrative purposes.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 2
+ },
+ {
+  "query": "Which department pays occasional overtime when the employee exceeds the scheduled hours?",
+  "gold_answer": "The department that exceeds the scheduled hours pays the occasional overtime.",
+  "expected_policy": "Dual Employment",
+  "expected_page": 2
+ },
+ {
+  "query": "By what date must a new employee complete Section I of the I-9?",
+  "gold_answer": "Section I must be completed on or before the employee\u2019s first day of employment.",
+  "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What is the deadline for completing Section II of the I-9 after work begins?",
+  "gold_answer": "Section II must be completed within three business days of the employee\u2019s first day of work.",
+  "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What kind of documentation must employees provide with the I-9 to establish identity and work eligibility?",
+  "gold_answer": "They must provide the required original supporting documents establishing their identity and eligibility to work in the United States.",
+  "expected_policy": "Verification of Employment Eligibility (I-9) Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "When should an employee notify a supervisor that they need sick time?",
+  "gold_answer": "The employee must notify the supervisor in advance or within the first hour of their normal starting time.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 1
+ },
+ {
+  "query": "When may a department request a health-care provider note for an absence longer than three consecutive workdays?",
+  "gold_answer": "For an absence longer than three consecutive workdays that is not covered by New York Safe and Sick Leave, the department may require reasonable documentation from a licensed health-care provider.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 1
+ },
+ {
+  "query": "If requested, by when must documentation for an extended sick absence be produced?",
+  "gold_answer": "It must be produced within seven calendar days after the employee returns to work.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 1
+ },
+ {
+  "query": "What does the policy expect regarding outside activities during sick leave or disability leave?",
+  "gold_answer": "Employees are expected not to engage in outside activities that conflict with their treatment plan or suggest misuse of the University\u2019s leave policies.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 2
+ },
+ {
+  "query": "How much salary continuation may a full-time Officer of Administration or Officer of the Libraries receive for an extended absence?",
+  "gold_answer": "Up to six months during any rolling 12-month period when the extended absence is caused by the employee\u2019s own disability, illness, or injury.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 2
+ },
+ {
+  "query": "What must happen before an employee becomes eligible for a new sick-leave period after using one?",
+  "gold_answer": "The employee must pass their service anniversary date and return to work.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 3
+ },
+ {
+  "query": "May an employee use vacation time if no sick time is available?",
+  "gold_answer": "Yes, but only with the supervisor\u2019s permission.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 3
+ },
+ {
+  "query": "How is the sick-time schedule adjusted for a regular part-time employee?",
+  "gold_answer": "It is prorated based on the number of days and hours the employee works each week.",
+  "expected_policy": "Sick Leave",
+  "expected_page": 3
+ },
+ {
+  "query": "What does the Human Resources Record Retention Schedule (RRS-CUHR) specify?",
+  "gold_answer": "It lists University record types for which Columbia Human Resources is the Office of Record and the retention period for each.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "How does this policy direct staff to handle records that are not listed in the RRS-CUHR?",
+  "gold_answer": "They are not covered by this policy and should be retained in a manner consistent with existing practice and procedure.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What are the Office of Record\u2019s responsibilities for official records?",
+  "gold_answer": "It identifies records to retain, determines retention periods with the Office of General Counsel, arranges proper storage, and coordinates disposal after the retention period expires.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "When does a document hold stop routine disposal of records?",
+  "gold_answer": "When records relate to pending or ongoing litigation, a government investigation, or an audit, disposal must stop until the matter is resolved, appeals are exhausted, and the retention period has expired.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "How long should departments outside the Office of Record keep their copies of official HR records?",
+  "gold_answer": "They should keep copies only as long as the copies are useful, except when a document hold applies.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Do electronic files and records on offline media fall within the policy\u2019s examples of records?",
+  "gold_answer": "Yes. Examples include data stored on computers or offline media, as well as computer programs and their documentation.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "What types of material does the policy classify as non-records that users may dispose of at their discretion?",
+  "gold_answer": "Examples include duplicates of official records not under hold, publicly available reference materials, materials with no informational value, spam or junk mail, and blank forms.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "How often does the policy recommend reviewing the RRS-CUHR for accuracy?",
+  "gold_answer": "It recommends that Columbia Human Resources review it every three years.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "What two conditions generally permit disposal of an HR record under the RRS-CUHR?",
+  "gold_answer": "Its retention period must have expired and continued preservation must not be required by a current document hold.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "Does the HR record disposal policy depend on whether the record is paper or electronic?",
+  "gold_answer": "No. Disposal applies regardless of the record\u2019s medium or location, and must follow the University\u2019s sanitization and disposal policy.",
+  "expected_policy": "Human Resources Record Retention Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "Which kinds of event activities require a certified local Fire Marshal permit under the Event Fire Safety Policy?",
+  "gold_answer": "Vehicle displays, fog machines, fueled cooking demonstrations, lasers, exhibits, or extensive productions with staging and props require a certified permit.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Who is responsible for the costs associated with permits, floor-plan approval, and standby fire watch?",
+  "gold_answer": "The event sponsor is responsible for those fees.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "How far ahead of the event must the permit be provided to University Event Management?",
+  "gold_answer": "At least three business days before the event.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What does the policy require organizers to do if a fire alarm sounds during an event?",
+  "gold_answer": "Raise the house lights if needed and instruct participants to leave the area or follow directions from fire-safety or fire-department personnel.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Are open-flame candles allowed in University Event Management facilities?",
+  "gold_answer": "Generally no. Votive candles and sternos are exceptions, and otherwise only flameless electric candles are allowed; limited outdoor exceptions may be considered case by case.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Who is responsible for ensuring that an event stays within its venue\u2019s occupancy limit?",
+  "gold_answer": "The sponsoring organization must take positive steps to ensure the occupancy limit is observed throughout the event.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "How does the policy use ticket sales to help enforce event capacity?",
+  "gold_answer": "Ticket sales are restricted to the appropriate capacity limit for the venue.",
+  "expected_policy": "Event Fire Safety Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What communication channel has Columbia designated as an official means of communication with students?",
+  "gold_answer": "Email is an official means of communication with students.",
+  "expected_policy": "Student Email Communication Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Does every student need an official Columbia email address under this policy?",
+  "gold_answer": "Yes. An official Columbia University email address is required for all students.",
+  "expected_policy": "Student Email Communication Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "How is a student\u2019s official Columbia email address associated with their account?",
+  "gold_answer": "The official address is based on the University Network ID (UNI) assigned to the student.",
+  "expected_policy": "Student Email Communication Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "How frequently does the policy expect students to read their Columbia email?",
+  "gold_answer": "It expects students to read their University email frequently and consistently.",
+  "expected_policy": "Student Email Communication Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "If a student redirects official email and a message is lost, does that remove the student\u2019s responsibility for the communication?",
+  "gold_answer": "No. Students who forward email do so at their own risk, and loss caused by forwarding does not remove their responsibility for communications sent to the official address.",
+  "expected_policy": "Student Email Communication Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Through which form must departments request an on-campus display case, and who manages fabrication and installation?",
+  "gold_answer": "Display cases are requested through CUF's online Project Request Form. CUFO Planning manages location assignment, and CUFO Capital Project Management manages fabrication and installation.",
+  "expected_policy": "Morningside Campus Display Cases",
+  "expected_page": 2
+ },
+ {
+  "query": "What authority does the Department of Public Safety have over hoverboards on campus, and who is responsible for resulting damages or injuries?",
+  "gold_answer": "Public Safety can remove or suspend operations of any hoverboard on campus or University property. Damages or injuries to property or individuals are the responsibility of the hoverboard operator.",
+  "expected_policy": "Use of Hoverboards on University Campus and Property",
+  "expected_page": 2
+ },
+ {
+  "query": "What does a University background check consist of, and when must rehires undergo one?",
+  "gold_answer": "It consists of a criminal record search (including the 50-state sex offender registry) plus education and employment verifications. Rehires with a break in service of more than six consecutive months must also undergo one.",
+  "expected_policy": "Columbia University Background Check Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Are lump sum payments allowed for variable hour officers?",
+  "gold_answer": "No. VHOs must be paid at least the minimum hourly rate for their grade based on hours worked, with signed timesheets kept on file in the department.",
+  "expected_policy": "Employment of Variable Hours Officers",
+  "expected_page": 4
+ },
+ {
+  "query": "How many weeks of unpaid leave does FMLA provide in a twelve-month period?",
+  "gold_answer": "Up to twelve weeks of unpaid leave in any twelve-month period for eligible employees, for reasons including birth, adoption or foster placement, caring for a spouse, child or parent with a serious health condition, or the employee's own serious health condition.",
+  "expected_policy": "Leaves of Absence",
+  "expected_page": 2
+ },
+ {
+  "query": "What is the Hiring Manager's responsibility under the transfers and internal mobility policy?",
+  "gold_answer": "The Hiring Manager ensures the position is approved by the department or school, funded and posted on TalentLink, and determines that the candidate meets the policy's eligibility and requirements.",
+  "expected_policy": "Managing Transfers, Internal Mobility and Re-Hires",
+  "expected_page": 5
+ },
+ {
+  "query": "How far from building entrances is smoking prohibited on public sidewalks at Manhattanville?",
+  "gold_answer": "Smoking is prohibited on public sidewalks by and within 25 feet of any building entrance area, operable window and outdoor air intake area.",
+  "expected_policy": "Smoking Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Which expenses are non-reimbursable through Candex for honoraria payments?",
+  "gold_answer": "Expenses requiring segregation: amounts exceeding policy thresholds, alcohol, business-class or first-class airfare, and any other expense designated as requiring segregation.",
+  "expected_policy": "Policy for Making Payments With Candex",
+  "expected_page": 6
+ },
+ {
+  "query": "What may the Committee on Leave be composed of when reviewing a student's re-enrollment after Involuntary Leave?",
+  "gold_answer": "Administrators, faculty and staff from Public Safety, the student's school, and for Morningside students Primary Care Medical Services and Counseling and Psychological Services, plus other professionals the DOS deems necessary.",
+  "expected_policy": "Involuntary Leave of Absence Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "What are the duties of a Petty Cash Fund Custodian?",
+  "gold_answer": "To follow policy on reimbursements and safekeeping, reconcile the fund monthly, keep disbursement records, and replenish the fund within its approved level using timely receipts. The custodian must be a full-time salaried officer or staff employee.",
+  "expected_policy": "Petty Cash Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "Why was the Bicycle Parking Protocols policy established?",
+  "gold_answer": "To promote a more bike-friendly environment by maximizing bike rack availability and reducing illegal locking of bikes to railings and stairwells. Public Safety enforces it.",
+  "expected_policy": "Bicycle Parking Protocols",
+  "expected_page": 1
+ },
+ {
+  "query": "Which federal regulations does the Acquisition of Moveable Capital Equipment policy respond to?",
+  "gold_answer": "FAR 52.245-1 Government Property, and OMB Circulars A-21, A-110 and A-133.",
+  "expected_policy": "Acquisition of Moveable Capital Equipment",
+  "expected_page": 2
+ },
+ {
+  "query": "Which group is the primary liaison to schools and departments for capital equipment capitalization?",
+  "gold_answer": "The CAA Property Manager within Capital Asset Accounting.",
+  "expected_policy": "Capitalization of Moveable Capital Equipment",
+  "expected_page": 2
+ },
+ {
+  "query": "May student groups bring their own grills to a campus barbecue?",
+  "gold_answer": "No. Personal grills are not permitted; groups must rent barbecue equipment from Facilities, and one kit services one grill.",
+  "expected_policy": "Barbeque Event Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "When may a waiver from endpoint encryption requirements be granted?",
+  "gold_answer": "When a Security Manager requests it for an endpoint with Sensitive Data that cannot use encryption for technology or business reasons, and the Information Security Office finds compensating controls address all major risks.",
+  "expected_policy": "Registration And Protection Of Endpoints Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "How does the Information Security Charter define a peer-to-peer file sharing program?",
+  "gold_answer": "A program that lets any computer running it share and make available its stored files to any machine with similar software and protocol.",
+  "expected_policy": "Information Security Charter",
+  "expected_page": 9
+ },
+ {
+  "query": "What must happen if a UNI password has been compromised?",
+  "gold_answer": "The user must enroll in MFA All to reinstate UNI account access.",
+  "expected_policy": "Information Resource Access Control and Log Management Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Which network devices must be installed and maintained by CUIT or CUIMC IT?",
+  "gold_answer": "Communications cabling, routers segmenting the network, switches and hubs, wireless access points, telecommunications equipment such as PBXes and VOIP, and cellular and cable/satellite TV infrastructure.",
+  "expected_policy": "Network Protection Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What must the person responsible for a potentially compromised system containing Sensitive Data do immediately?",
+  "gold_answer": "Take immediate steps to secure the system and preserve it without change.",
+  "expected_policy": "Electronic Data Security Breach Reporting and Response Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "What three classifications of service calls does Columbia University Facilities provide at no charge?",
+  "gold_answer": "Emergency, Urgent and Routine service calls at a standard, non-chargeable level; higher levels of service are chargeable.",
+  "expected_policy": "Academic and Administrative Building Services",
+  "expected_page": 1
+ },
+ {
+  "query": "What balance of programming is expected from campus organizations that plan events with alcohol?",
+  "gold_answer": "A reasonable balance between events with alcohol and events without it.",
+  "expected_policy": "Alcohol Statement of Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Which employees have an obligation to immediately report harassment or discrimination involving students?",
+  "gold_answer": "Faculty, Officers of Administration, Research Officers, Officers of the Libraries, coaching staff, and other staff working with students such as teaching assistants and advising and residential program staff.",
+  "expected_policy": "OIE website",
+  "expected_page": 3
+ },
+ {
+  "query": "How does the Anti-Hazing Policy characterize forced consumption of substances?",
+  "gold_answer": "Causing, coercing or inducing another person to consume food, liquid, alcohol, drugs or other substances is listed among hazing activities that create risk of physical or psychological injury.",
+  "expected_policy": "Anti-Hazing Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "To whom are monthly bank reconciliations submitted for non-CUIMC accounts?",
+  "gold_answer": "The Controller's Office; CUIMC accounts go to the CUIMC Administration Office.",
+  "expected_policy": "Bank Account Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "What approvals apply when Sensitive or Confidential Data is stored on cloud computing services?",
+  "gold_answer": "The contracts must be approved by Procurement Services, and the system's protections must be assessed by the Information Security Office before implementation and reassessed periodically.",
+  "expected_policy": "External Hosting Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Does the Electronic Signature Policy require use of electronic signatures?",
+  "gold_answer": "No. It does not mandate them or limit parties' rights to transact on paper, and it does not apply where law requires a handwritten signature or to facsimile signatures.",
+  "expected_policy": "Electronic Signature Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What fee range generally applies when a copyright owner grants a film screening license, and which companies license films?",
+  "gold_answer": "A fee of generally $300-$1000. Swank Motion Pictures and Criterion Motion Pictures are the two principal licensing companies.",
+  "expected_policy": "Film Screening Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Which type of DOH permit is accepted for temporary food service at Columbia events?",
+  "gold_answer": "An H15 Temporary Food Service Establishment permit, which must be valid and name the location of the event.",
+  "expected_policy": "Food Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "For which awards does the policy on charging office supplies to federal awards take effect?",
+  "gold_answer": "All federal grant and contract awards, including continuation awards, made on or after July 1, 1994.",
+  "expected_policy": "Charging Office Supplies and Other Administrative Expenses (Other than Salaries) to Federal Awards",
+  "expected_page": 2
+ },
+ {
+  "query": "Why does Columbia have a policy for commuter bicycle parking enclosures?",
+  "gold_answer": "To promote a bike-friendly environment by maximizing the limited campus space available for bike parking for active Columbia bike users.",
+  "expected_policy": "Commuter Bicycle Parking Enclosures on the Morningside Heights Campus",
+  "expected_page": 1
+ },
+ {
+  "query": "What flexibility does the Commercial Rent Arrears Policy allow staff in handling arrears?",
+  "gold_answer": "Discretion to create individual payment plans, or escalation of cases to more stringent enforcement as warranted, with consistent communication and follow-up.",
+  "expected_policy": "Commercial Rent Arrears Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Who is covered by the restrictions on romantic and sexual relationships with graduate students?",
+  "gold_answer": "All officers of instruction, research, administration and the libraries, plus anyone with authority over a student such as advisors of student organizations, athletic coaches, supervisors of student employees, and mentors.",
+  "expected_policy": "Policy on Romantic and Sexual Relationships with Graduate Students",
+  "expected_page": 2
+ },
+ {
+  "query": "What must a supervisor do if a consensual relationship exists with someone in a supervisory context?",
+  "gold_answer": "Disclose it to the appropriate superior and initiate arrangements to address conflicts of interest. Participation in related decisions requires explicit approval of the VP of Human Resources in consultation with OGC.",
+  "expected_policy": "Policy on Romantic and Sexual Relationships Between Staff Members",
+  "expected_page": 1
+ },
+ {
+  "query": "How long are Purchase Orders retained under the Procurement Records Retention Policy?",
+  "gold_answer": "Fiscal year plus 11 years.",
+  "expected_policy": "Procurement Records Retention Policy",
+  "expected_page": 5
+ },
+ {
+  "query": "What must U.S. vendors provide before the University issues payment?",
+  "gold_answer": "A completed and signed Form W-9 to Vendor Management.",
+  "expected_policy": "Taxpayer Identification Number Form (W9) Requirement",
+  "expected_page": 1
+ },
+ {
+  "query": "Which union agreements does the construction and repairs policy comply with?",
+  "gold_answer": "The Collective Bargaining Agreement with the Transport Workers, Local 241 and Local 2110, which gives Local 241 the opportunity to perform work it can do.",
+  "expected_policy": "Requests for Construction, Repairs and Maintenance",
+  "expected_page": 2
+ },
+ {
+  "query": "Which office is responsible for the Capital Equipment Leasing Policy?",
+  "gold_answer": "Procurement Services - Purchasing, with the Vice President for Procurement Services as responsible officer.",
+  "expected_policy": "Capital Equipment Leasing Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What are the competitive sourcing thresholds for sponsored award purchases under $15,000 and between $15,001 and $350,000?",
+  "gold_answer": "Purchases under $15,000 (micro purchase) need one quote or proposal. Purchases between $15,001 and $350,000 require multiple written quotes.",
+  "expected_policy": "Competitive Procurement",
+  "expected_page": 6
+ },
+ {
+  "query": "When may goods valued at $500 or less be paid by Direct Payment?",
+  "gold_answer": "For non-restricted goods of $500 or less where the P-Card is not a viable option.",
+  "expected_policy": "Procurement Mechanism Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Are oral contracts permissible under the Goods and Services Contracts policy?",
+  "gold_answer": "No. Contracts can be formed informally or orally in law, but oral contracts are not permissible under this policy.",
+  "expected_policy": "Goods and Services Contracts",
+  "expected_page": 2
+ },
+ {
+  "query": "Who must be notified before engaging executive search services?",
+  "gold_answer": "The Office of Management and Budget (OMB), to ensure the appropriate budget has been established and approved.",
+  "expected_policy": "Transactions Requiring Prior Approvals",
+  "expected_page": 4
+ },
+ {
+  "query": "What is decapping an endowment fund?",
+  "gold_answer": "Appropriating for expenditure the net appreciation, reinvested income and/or principal beyond the amount distributed as a regular payout.",
+  "expected_policy": "Decapitalizing Endowment Accounts",
+  "expected_page": 1
+ },
+ {
+  "query": "When must an endowment be marked central?",
+  "gold_answer": "If it is unrestricted, covers core functions occurring with or without the gift (e.g. financial aid, professorships, research), or its income is substitutional and may free up general unrestricted funds.",
+  "expected_policy": "Designating Endowment Accounts as CentralCurrent",
+  "expected_page": 2
+ },
+ {
+  "query": "Do the Rules of University Conduct apply to demonstrations inside academic buildings?",
+  "gold_answer": "Yes. Demonstrations in academic buildings and places necessary for University activities are not acceptable because they are likely to disrupt academic activities.",
+  "expected_policy": "Rules of University Conduct",
+  "expected_page": 4
+ },
+ {
+  "query": "What information must a Medical Center student alcohol event plan include?",
+  "gold_answer": "Sponsoring students and organizations, their schools, dates, location, expected attendance, whether under-21s may attend (with ID checking and proctoring arrangements), and the hours the space is needed.",
+  "expected_policy": "Supplemental Guidelines and Procedures to Implement the University Policy on Alcohol at the Medical Center",
+  "expected_page": 3
+ },
+ {
+  "query": "May Columbia's name or insignia be used on stationery for political campaign purposes?",
+  "gold_answer": "No. The name or insignia cannot be used on stationery or documents for political purposes, including soliciting political funds.",
+  "expected_policy": "Partisan Political Campaign Activities on Campus or at Campus Facilities",
+  "expected_page": 2
+ },
+ {
+  "query": "Does Columbia screen or approve housing listings in the OCHA Housing Registry?",
+  "gold_answer": "No. It does not screen listers or inspect accommodations, cannot verify descriptions, and assumes no responsibility for rental agreements.",
+  "expected_policy": "Off-Campus Housing Assistance (OCHA) Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Who is responsible for developing and maintaining the Morningside fire safety policy?",
+  "gold_answer": "The Director of Fire Safety, within Morningside Facilities Operations.",
+  "expected_policy": "Fire Safety Policy and Procedures Morningside Campus",
+  "expected_page": 1
+ },
+ {
+  "query": "Are roof terraces and balconies in residential units restricted areas?",
+  "gold_answer": "No. Those considered part of the occupied residential space are not restricted, while non-public roofs, ledges and balconies of University buildings are restricted to authorized users.",
+  "expected_policy": "Roof, Ledge and Balcony Access - Morningside and Manhattanville",
+  "expected_page": 2
+ },
+ {
+  "query": "Which buildings are excluded from the Lead-Based Paint Policy?",
+  "gold_answer": "Buildings built after 1978 and buildings certified as lead free.",
+  "expected_policy": "Lead-Based Paint Policy for Columbia Residential",
+  "expected_page": 2
+ },
+ {
+  "query": "What must preferred lender lists state about borrower choice?",
+  "gold_answer": "That students and parents may select the loan provider of their choice, are not required to use listed lenders, and will suffer no penalty for choosing another.",
+  "expected_policy": "Financial Aid Code of Conduct",
+  "expected_page": 4
+ },
+ {
+  "query": "What must be cleared when a sponsored project expires so it can be closed?",
+  "gold_answer": "Encumbrances, accruals, pre-paid vouchers and petty cash must be cleared and any final overrun removed and funded by non-sponsored resources.",
+  "expected_policy": "Monitoring and Reconciling Sponsored Projects",
+  "expected_page": 4
+ },
+ {
+  "query": "Why must certain costs be segregated on federal awards?",
+  "gold_answer": "Because the federal government deems certain costs unallowable for reimbursement, even though it generally funds direct costs and reimburses indirect (F&A) costs of the research environment.",
+  "expected_policy": "Segregation of Unallowable Costs",
+  "expected_page": 1
+ },
+ {
+  "query": "How are relocation payments taxed and coded in payroll?",
+  "gold_answer": "They are paid with the REL earn code, fully taxable at supplemental withholding rates, and not subject to a fringe charge.",
+  "expected_policy": "Relocation Expenses Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Give examples of potential Business Associates that require a BAA.",
+  "gold_answer": "Billing, coding and collection vendors, consultants, answering services, shredding and storage companies, medical transcription services, data processing firms, law firms, external auditors, and application or third party service vendors.",
+  "expected_policy": "Business Associate Agreement",
+  "expected_page": 2
+ },
+ {
+  "query": "Under NYPMIFA, may the University spend from an endowment whose value is below its original gifts?",
+  "gold_answer": "Yes, if the appropriation is prudently determined under NYPMIFA factors. Such funds are coded in ARC with project type EHDVN.",
+  "expected_policy": "Endowment and Gift Fund Administration and Compliance",
+  "expected_page": 4
+ },
+ {
+  "query": "How can patients opt out of fundraising communications?",
+  "gold_answer": "They may email development-opt-out@cumc.columbia.edu or call 212-305-9526 to reach the CUIMC Office of Development, which keeps an opt-out list.",
+  "expected_policy": "Fundraising and HIPAA",
+  "expected_page": 2
+ },
+ {
+  "query": "Which Cost Accounting Standard requires that service center rates exclude unallowable costs?",
+  "gold_answer": "CAS 505: rates must exclude unallowable costs and relate to actual cost of services to all users regardless of funding source.",
+  "expected_policy": "Service Centers and Recharge Centers",
+  "expected_page": 3
+ },
+ {
+  "query": "What does Institutional Base Salary exclude?",
+  "gold_answer": "Bonuses, one-time payments, incentive pay, salary paid directly by another organization (e.g. HHMI), outside income like consulting, incidental pay, non-guaranteed clinical compensation and extra service pay.",
+  "expected_policy": "Charging and Documentation of Personnel Costs Charged to Sponsored Projects",
+  "expected_page": 3
+ },
+ {
+  "query": "What happens if a Columbia Residential resident fails to pay rent on time?",
+  "gold_answer": "It is a default under the housing agreement, since late payment burdens the University administratively and financially.",
+  "expected_policy": "Rental Payment Policy - Columbia Residential",
+  "expected_page": 1
+ },
+ {
+  "query": "Which plans are included in the Columbia University Health Plan HIPAA notice?",
+  "gold_answer": "Aetna Columbia Dental Plan, Aetna HMO, Emblem Health, Empire Blue Cross, CIGNA plans, Optum, Optum Rx, UnitedHealthcare Choice Plus, HDHP, Medicare Advantage and Healthcare Flexible Spending Accounts.",
+  "expected_policy": "HIPAA Privacy Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "How does Paid Family Leave define a serious health condition?",
+  "gold_answer": "An illness, injury, impairment or physical or mental condition involving inpatient care in a hospital, hospice or residential facility, or continuing treatment or supervision by a health care provider.",
+  "expected_policy": "New York State Paid Family Leave",
+  "expected_page": 6
+ },
+ {
+  "query": "What HIPAA rules require workforce training?",
+  "gold_answer": "The Privacy Rule \u00a7164.530 administrative requirements and the Security Rule \u00a7164.308 administrative safeguards.",
+  "expected_policy": "HIPAA Training",
+  "expected_page": 1
+ },
+ {
+  "query": "What happens when a Limited Data Set recipient's activity is inconsistent with its Data Use Agreement?",
+  "gold_answer": "It must be reported promptly to the Chief Privacy Officer or OGC, who investigates and may require correction; if unsuccessful, CUHC discontinues disclosure and reports to HHS or state agencies if required by law.",
+  "expected_policy": "Limited Data Set and Data Use Agreement Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "When may Columbia disclose an entire medical record?",
+  "gold_answer": "Only if authorized in writing by the patient or representative, or if the entire record is specifically justified as reasonably necessary and the justification is documented.",
+  "expected_policy": "Minimum Necessary Rule",
+  "expected_page": 3
+ },
+ {
+  "query": "What does the HIPAA definition of PHI exclude?",
+  "gold_answer": "Individually identifiable health information in FERPA-covered education records, certain related student records, and employment records held by a covered entity as employer.",
+  "expected_policy": "Privacy and Information Security Sanction Policy",
+  "expected_page": 6
+ },
+ {
+  "query": "Where is a signed Sale of PHI authorization kept?",
+  "gold_answer": "In the patient's medical record.",
+  "expected_policy": "Sale of Protected Health Information (PHI)",
+  "expected_page": 3
+ },
+ {
+  "query": "May CUHC disclose PHI for public health activities without authorization?",
+  "gold_answer": "Yes, for specified public health purposes permitted by the Privacy Rule, such as reporting adverse events, product defects or recalls to manufacturers.",
+  "expected_policy": "Use and Disclosure of Protected Health Information Policy",
+  "expected_page": 4
+ },
+ {
+  "query": "What waiting period applies to Local 1199 employees hired after June 1, 2015?",
+  "gold_answer": "A two-semester waiting period, administered as 7 months, before receiving Tuition Exemption Benefits, applying also to the spouse or domestic partner.",
+  "expected_policy": "Tuition Exemption Benefits For Support Staff, Non-Union Support Staff, and Union Members",
+  "expected_page": 3
+ },
+ {
+  "query": "Why are drug screenings relevant for students in clinical rotations?",
+  "gold_answer": "Clinical facilities increasingly require them under Joint Commission accreditation, and students with a positive screen may be barred from rotations they need for their degree.",
+  "expected_policy": "Columbia University Policy on Alcohol and Drugs",
+  "expected_page": 11
+ },
+ {
+  "query": "What should be done with a suspicious package received through Columbia Mail Services?",
+  "gold_answer": "Do not open it and notify the Department of Public Safety immediately. Signs include powder, odd odor, protruding wires and excessive postage or tape.",
+  "expected_policy": "Mail and Personal Safety",
+  "expected_page": 2
+ },
+ {
+  "query": "Which employees are generally exempt from overtime under the Overtime Policy?",
+  "gold_answer": "Officers (executives, professionals and administrators) are usually exempt, while non-union support staff are non-exempt and earn 1.5 times pay beyond 40 hours.",
+  "expected_policy": "Overtime Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What counts as lobbying under New York City law in the University lobbying policy?",
+  "gold_answer": "Attempts by direct or indirect contact to influence City Council legislation, city agency rules or rate making, procurement determinations, zoning or real property decisions, and similar city actions.",
+  "expected_policy": "Policy Governing Lobbying Activities",
+  "expected_page": 4
+ },
+ {
+  "query": "How much severance do Officers of Administration with two or more years of service receive?",
+  "gold_answer": "One month of base salary per year of service, up to six months, contingent on signing a full release of claims.",
+  "expected_policy": "Termination of Employment",
+  "expected_page": 6
+ },
+ {
+  "query": "What is the purpose of the Controller Records Retention Policy?",
+  "gold_answer": "To establish the RRS-OTC so the University protects needed records and eliminates unneeded ones, complying with laws and avoiding unnecessary storage costs.",
+  "expected_policy": "Controller Records Retention Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "When must Human Resources or the Controller's Office be contacted about an overseas stay?",
+  "gold_answer": "When the stay of US-based faculty or staff will exceed 180 days, or when employees based outside the US will be hired; shorter stays may also trigger tax compliance issues.",
+  "expected_policy": "Faculty and Staff Working Overseas",
+  "expected_page": 1
+ },
+ {
+  "query": "What counts as program income on sponsored projects?",
+  "gold_answer": "Fees for services, rental of property acquired under federal awards, sale of fabricated items, license fees and royalties, interest on loans made with award funds, and income from another project that benefits the project.",
+  "expected_policy": "Treatment of Program Income on Sponsored Projects",
+  "expected_page": 2
+ },
+ {
+  "query": "Within what time must non-union support staff provide proof of illness for medical leave?",
+  "gold_answer": "Within one week of disability onset, with a physician's note, and they must be under a physician's care.",
+  "expected_policy": "Medical Leave of Absence Non-Union Support Staff",
+  "expected_page": 2
+ },
+ {
+  "query": "How much vacation do non-CUIMC support staff with 20 or more years of service accrue?",
+  "gold_answer": "2 days per completed month of service, up to 25 days. Those with 15 to under 20 years are capped at 22 days and those with under 15 years at 20 days.",
+  "expected_policy": "Paid Vacation",
+  "expected_page": 3
+ },
+ {
+  "query": "When does RPIC obtain a new Subrecipient Certification and Financial Status Questionnaire?",
+  "gold_answer": "When the University has never entered a Subaward with the proposed subrecipient or the prior Subaward ended more than three years ago.",
+  "expected_policy": "Sponsored Projects Subawards",
+  "expected_page": 5
+ },
+ {
+  "query": "What does the Treasury Records Retention Policy establish?",
+  "gold_answer": "The Records Retention Schedule for the Office of the Treasurer (RRS-TR), listing record types and retention periods for records Treasury is Office of Record for.",
+  "expected_policy": "Treasury Records Retention Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Who notifies schools and departments of their tax-exempt bond record retention duties?",
+  "gold_answer": "The Office of the Treasurer notifies them annually.",
+  "expected_policy": "Records Retention Policy - Tax Exempt Bond Financings",
+  "expected_page": 2
+ },
+ {
+  "query": "Which office enforces the Operating Overdraft Policy?",
+  "gold_answer": "The Office of Management and Budget (OMB). No unit should have an overdraft in any operating account at fiscal year end.",
+  "expected_policy": "Operating Overdraft Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What does the Vehicle policy define as a 'vehicle', and are aircraft included?",
+  "gold_answer": "Any University owned or leased motor vehicle or watercraft, plus privately owned ones used solely for operational purposes. Aircraft are not included.",
+  "expected_policy": "Vehicle Acquisition, Operation and Disposal Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "Who oversees commercial support for education at the Mailman School of Public Health?",
+  "gold_answer": "Department Chairs or Center Directors, to separate commercial funding from education.",
+  "expected_policy": "Conflict of Interest Policy on Education, Clinical Care, and Administration for Faculty and Researchers at Columbia Univ",
+  "expected_page": 13
+ },
+ {
+  "query": "What portion of tuition is exempted under the Reduced Employee Rate for Officers?",
+  "gold_answer": "35% is exempted; the officer pays the remaining 65% plus all fees such as course fees, textbooks and housing.",
+  "expected_policy": "Reduced Employee Rate Supplement to the Tuition Exemption Benefit for Officers Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "What minimum features must a dedicated lactation room have?",
+  "gold_answer": "Clean, well-lit, separate from bathrooms, shielded from view, free from intrusion, near running water, with an electrical outlet, a chair and a surface for a pump.",
+  "expected_policy": "Lactation Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What must a cardholder do if a P-Card is lost or stolen?",
+  "gold_answer": "Immediately notify the card issuer, the Departmental P-Card Administrator, and the P-Card team or Finance Service Center. The University is liable for unauthorized use until the issuer is notified.",
+  "expected_policy": "Purchasing Card Policy",
+  "expected_page": 8
+ },
+ {
+  "query": "Which policy prevails if a department or donor policy conflicts with the Business Expense Policy?",
+  "gold_answer": "The more restrictive policy applies.",
+  "expected_policy": "Business Expense Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "When may records be disposed of under the University Policy on Records Retention?",
+  "gold_answer": "When they have outlived their retention period per the approved RRS and no document hold requires preservation.",
+  "expected_policy": "Columbia University Policy on Records Retention",
+  "expected_page": 5
+ },
+ {
+  "query": "When may foreign-flag carriers be used for short distance travel under the Fly America Act?",
+  "gold_answer": "When the foreign-flag flight takes three hours or less and a U.S.-flag carrier would double the travel time.",
+  "expected_policy": "Fly America Act",
+  "expected_page": 5
+ },
+ {
+  "query": "May donors receive value in return for gifts or retain control over them?",
+  "gold_answer": "No. Gifts are processed through OAD, and donors may not receive value in return or retain control.",
+  "expected_policy": "Distinguishing Gifts from Sponsored Projects",
+  "expected_page": 3
+ },
+ {
+  "query": "How much paid parental leave may full-time non-union support staff receive?",
+  "gold_answer": "Up to six weeks at full salary, for those employed at least one year who become parents of a newborn or adopt or foster a child under six, running concurrently with FMLA or state leave.",
+  "expected_policy": "Parental Care Leave Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Are WiFi and home data plans covered under the Remote Work Supplies policy?",
+  "gold_answer": "Generally not, though exceptions may be considered, such as department-purchased WiFi hotspots to improve connectivity.",
+  "expected_policy": "Remote Work Supplies and Minor Equipment Policy",
+  "expected_page": 3
+ },
+ {
+  "query": "Who pays rent and relocation costs during occupied apartment renovation?",
+  "gold_answer": "The resident remains responsible for rent throughout renovation regardless of occupancy, and for alternate housing at their own expense if temporary relocation is needed.",
+  "expected_policy": "Occupied Apartment Renovation Policy",
+  "expected_page": 5
+ },
+ {
+  "query": "What powers does the P&S Faculty Council have?",
+  "gold_answer": "It acts on behalf of the Faculty under University Statutes Article 35, may establish committees, act on referred matters, and approve meeting agendas.",
+  "expected_policy": "Stated Rules of the Faculty of the Vagelos College of Physicians & Surgeons",
+  "expected_page": 5
+ },
+ {
+  "query": "How much paid leave does the Living Organ Donation policy provide?",
+  "gold_answer": "Up to four weeks in a rolling 12-month period for organ donation and up to five business days in 12 months for bone marrow donation, usable intermittently.",
+  "expected_policy": "Columbia University\u2019s Living Organ Donation Paid Leave Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "May students record class sessions without permission?",
+  "gold_answer": "No. They need advance written permission from the instructor, or Disability Services for accommodation requests, and recordings may not be shared beyond class members without consent of recorded attendees.",
+  "expected_policy": "Unauthorized Recording Policy",
+  "expected_page": 2
+ },
+ {
+  "query": "What does the University Posting Policy say about unauthorized signage?",
+  "gold_answer": "Unauthorized display of banners, posters and signage is strictly prohibited regardless of content, and the University may remove any that don't meet guidelines.",
+  "expected_policy": "University Posting Policy",
+  "expected_page": 1
+ },
+ {
+  "query": "Which activities are covered by the Travel and Activity Planning Policy?",
+  "gold_answer": "Examples include study through outside organizations, approved exchange programs, internships organized by Columbia departments, independent dissertation research, conferences, civic engagement trips, and Columbia-funded or competition travel.",
+  "expected_policy": "Travel and Activity Planning Policy (TAPP)",
+  "expected_page": 3
+ }
+]
