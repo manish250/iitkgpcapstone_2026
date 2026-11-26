@@ -1,0 +1,23 @@
+streamlit>=1.46
+python-dotenv>=1.0
+# ---- live mode: the agent notebook's own install cells, unchanged ----
+langchain
+langchain-core
+langgraph
+langgraph-checkpoint-sqlite
+langchain-huggingface
+langchain-openai
+transformers
+accelerate
+sentence-transformers
+pypdf
+langchain-text-splitters
+rank-bm25
+opentelemetry-sdk
+opentelemetry-api
+opentelemetry-exporter-otlp
+opentelemetry-instrumentation-langchain
+# used directly by the notebook code
+openai
+httpx
+requests
