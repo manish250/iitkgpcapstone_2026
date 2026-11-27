@@ -1,1 +1,1 @@
-Build 2026-11-26 (v7): verbatim agent notebook code; 'Not found in the policies' answers labelled in the UI; no demo-video code
+Build 2026-11-27 (v9): light requirements.txt for hosting (+ requirements-agent.txt for live mode); dashboard snapshot fallback; trace dashboard; verbatim agent code
